@@ -1,0 +1,412 @@
+
+Lmod is automatically replacing "gcc-native/14.2" with "gcc/12.2.0".
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "openmpi"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+make: Nothing to be done for 'all'.
+srun ./ass2 -p -r -H 40001 -W 40001 -kW 36 -kH 36 -sH 1 -sW 1
+Starting convolution with stride 1,1
+[Rank 16] local_input1d rows=1285 (input_start_row=20001, input_end_row=21285)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 8] local_input1d rows=1285 (input_start_row=10001, input_end_row=11285)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 24] local_input1d rows=1285 (input_start_row=30001, input_end_row=31285)
+Convolution done
+Output Matrix size: 40001x40001
+Padding matrix from 40001x40001 to 40036x40036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 6114.51 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 32 processes...
+[Rank 0] local_input1d rows=1286 (input_start_row=0, input_end_row=1285)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=1285 (input_start_row=1251, input_end_row=2535)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 7] local_input1d rows=1285 (input_start_row=8751, input_end_row=10035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=1285 (input_start_row=3751, input_end_row=5035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 4] local_input1d rows=1285 (input_start_row=5001, input_end_row=6285)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 5] local_input1d rows=1285 (input_start_row=6251, input_end_row=7535)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 6] local_input1d rows=1285 (input_start_row=7501, input_end_row=8785)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=1285 (input_start_row=2501, input_end_row=3785)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 30] local_input1d rows=1285 (input_start_row=37501, input_end_row=38785)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 22] local_input1d rows=1285 (input_start_row=27501, input_end_row=28785)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 26] local_input1d rows=1285 (input_start_row=32501, input_end_row=33785)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 31] local_input1d rows=1285 (input_start_row=38751, input_end_row=40035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 23] local_input1d rows=1285 (input_start_row=28751, input_end_row=30035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 25] local_input1d rows=1285 (input_start_row=31251, input_end_row=32535)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 17] local_input1d rows=1285 (input_start_row=21251, input_end_row=22535)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 21] local_input1d rows=1285 (input_start_row=26251, input_end_row=27535)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 18] local_input1d rows=1285 (input_start_row=22501, input_end_row=23785)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 29] local_input1d rows=1285 (input_start_row=36251, input_end_row=37535)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 28] local_input1d rows=1285 (input_start_row=35001, input_end_row=36285)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 20] local_input1d rows=1285 (input_start_row=25001, input_end_row=26285)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 19] local_input1d rows=1285 (input_start_row=23751, input_end_row=25035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 27] local_input1d rows=1285 (input_start_row=33751, input_end_row=35035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 14] local_input1d rows=1285 (input_start_row=17501, input_end_row=18785)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 10] local_input1d rows=1285 (input_start_row=12501, input_end_row=13785)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 12] local_input1d rows=1285 (input_start_row=15001, input_end_row=16285)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 13] local_input1d rows=1285 (input_start_row=16251, input_end_row=17535)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 9] local_input1d rows=1285 (input_start_row=11251, input_end_row=12535)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 11] local_input1d rows=1285 (input_start_row=13751, input_end_row=15035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 15] local_input1d rows=1285 (input_start_row=18751, input_end_row=20035)
+Convolution done
+Output Matrix size: 40001x40001
+srun ./ass2 -p -r -H 40001 -W 80002 -kW 36 -kH 36 -sH 2 -sW 1
+Starting convolution with stride 2,1
+[Rank 16] local_input1d rows=1284 (input_start_row=20002, input_end_row=21285)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 24] local_input1d rows=1284 (input_start_row=30002, input_end_row=31285)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 8] local_input1d rows=1284 (input_start_row=10002, input_end_row=11285)
+Convolution done
+Output Matrix size: 20001x80002
+Padding matrix from 40001x80002 to 40036x80037 (top=17, bottom=18, left=17, right=18)
+Padding complete using 12223.67 MB total.
+Starting convolution with stride 2,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 32 processes...
+[Rank 0] local_input1d rows=1286 (input_start_row=0, input_end_row=1285)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 4] local_input1d rows=1284 (input_start_row=5002, input_end_row=6285)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 1] local_input1d rows=1284 (input_start_row=1252, input_end_row=2535)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 2] local_input1d rows=1284 (input_start_row=2502, input_end_row=3785)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 7] local_input1d rows=1284 (input_start_row=8752, input_end_row=10035)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 3] local_input1d rows=1284 (input_start_row=3752, input_end_row=5035)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 5] local_input1d rows=1284 (input_start_row=6252, input_end_row=7535)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 6] local_input1d rows=1284 (input_start_row=7502, input_end_row=8785)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 19] local_input1d rows=1284 (input_start_row=23752, input_end_row=25035)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 15] local_input1d rows=1284 (input_start_row=18752, input_end_row=20035)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 18] local_input1d rows=1284 (input_start_row=22502, input_end_row=23785)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 10] local_input1d rows=1284 (input_start_row=12502, input_end_row=13785)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 11] local_input1d rows=1284 (input_start_row=13752, input_end_row=15035)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 17] local_input1d rows=1284 (input_start_row=21252, input_end_row=22535)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 25] local_input1d rows=1284 (input_start_row=31252, input_end_row=32535)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 14] local_input1d rows=1284 (input_start_row=17502, input_end_row=18785)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 20] local_input1d rows=1284 (input_start_row=25002, input_end_row=26285)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 9] local_input1d rows=1284 (input_start_row=11252, input_end_row=12535)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 21] local_input1d rows=1284 (input_start_row=26252, input_end_row=27535)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 13] local_input1d rows=1284 (input_start_row=16252, input_end_row=17535)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 23] local_input1d rows=1284 (input_start_row=28752, input_end_row=30035)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 26] local_input1d rows=1284 (input_start_row=32502, input_end_row=33785)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 29] local_input1d rows=1284 (input_start_row=36252, input_end_row=37535)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 31] local_input1d rows=1284 (input_start_row=38752, input_end_row=40035)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 30] local_input1d rows=1284 (input_start_row=37502, input_end_row=38785)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 27] local_input1d rows=1284 (input_start_row=33752, input_end_row=35035)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 22] local_input1d rows=1284 (input_start_row=27502, input_end_row=28785)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 12] local_input1d rows=1284 (input_start_row=15002, input_end_row=16285)
+Convolution done
+Output Matrix size: 20001x80002
+Starting convolution with stride 2,1
+[Rank 28] local_input1d rows=1284 (input_start_row=35002, input_end_row=36285)
+Convolution done
+Output Matrix size: 20001x80002
+srun ./ass2 -p -r -H 40001 -W 120003 -kW 36 -kH 36 -sH 3 -sW 1
+Starting convolution with stride 3,1
+[Rank 8] local_input1d rows=1284 (input_start_row=10008, input_end_row=11291)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 24] local_input1d rows=1281 (input_start_row=30018, input_end_row=31298)
+Convolution done
+Output Matrix size: 13334x120003
+Padding matrix from 40001x120003 to 40036x120038 (top=17, bottom=18, left=17, right=18)
+Padding complete using 18332.83 MB total.
+Starting convolution with stride 3,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 32 processes...
+[Rank 0] local_input1d rows=1284 (input_start_row=0, input_end_row=1283)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 16] local_input1d rows=1284 (input_start_row=20016, input_end_row=21299)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 1] local_input1d rows=1284 (input_start_row=1251, input_end_row=2534)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 2] local_input1d rows=1284 (input_start_row=2502, input_end_row=3785)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 3] local_input1d rows=1284 (input_start_row=3753, input_end_row=5036)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 4] local_input1d rows=1284 (input_start_row=5004, input_end_row=6287)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 5] local_input1d rows=1284 (input_start_row=6255, input_end_row=7538)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 6] local_input1d rows=1284 (input_start_row=7506, input_end_row=8789)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 7] local_input1d rows=1284 (input_start_row=8757, input_end_row=10040)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 26] local_input1d rows=1281 (input_start_row=32514, input_end_row=33794)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 18] local_input1d rows=1284 (input_start_row=22518, input_end_row=23801)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 22] local_input1d rows=1281 (input_start_row=27522, input_end_row=28802)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 12] local_input1d rows=1284 (input_start_row=15012, input_end_row=16295)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 29] local_input1d rows=1281 (input_start_row=36258, input_end_row=37538)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 27] local_input1d rows=1281 (input_start_row=33762, input_end_row=35042)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 31] local_input1d rows=1281 (input_start_row=38754, input_end_row=40034)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 19] local_input1d rows=1284 (input_start_row=23769, input_end_row=25052)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 17] local_input1d rows=1284 (input_start_row=21267, input_end_row=22550)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 10] local_input1d rows=1284 (input_start_row=12510, input_end_row=13793)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 25] local_input1d rows=1281 (input_start_row=31266, input_end_row=32546)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 28] local_input1d rows=1281 (input_start_row=35010, input_end_row=36290)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 20] local_input1d rows=1284 (input_start_row=25020, input_end_row=26303)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 21] local_input1d rows=1284 (input_start_row=26271, input_end_row=27554)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 9] local_input1d rows=1284 (input_start_row=11259, input_end_row=12542)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 11] local_input1d rows=1284 (input_start_row=13761, input_end_row=15044)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 13] local_input1d rows=1284 (input_start_row=16263, input_end_row=17546)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 14] local_input1d rows=1284 (input_start_row=17514, input_end_row=18797)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 23] local_input1d rows=1281 (input_start_row=28770, input_end_row=30050)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 30] local_input1d rows=1281 (input_start_row=37506, input_end_row=38786)
+Convolution done
+Output Matrix size: 13334x120003
+Starting convolution with stride 3,1
+[Rank 15] local_input1d rows=1284 (input_start_row=18765, input_end_row=20048)
+Convolution done
+Output Matrix size: 13334x120003

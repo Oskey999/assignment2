@@ -2,13 +2,14 @@
 #SBATCH --nodes=4
 #SBATCH --partition=work
 #SBATCH --account=courses0101
-#SBATCH --mem=64GB
+#SBATCH --mem=0
+#SBATCH --job-name=assignment2
 #SBATCH --ntasks-per-node=1     # 8 MPI ranks per node
-#SBATCH --cpus-per-task=16      # 16 threads per rank
+#SBATCH --cpus-per-task=128      # 16 threads per rank
 #SBATCH --time=00:15:00
 module load gcc openmpi
 make
-for i in $(seq 40001 5000 40001); do
+for i in $(seq 200001 5000 200001); do
     for j in $(seq 36 15 36); do
         # for k in $(seq 1 1 3); do 
             for l in $(seq 1 1 3); do
