@@ -1,0 +1,40 @@
+
+Lmod is automatically replacing "gcc-native/14.2" with "gcc/12.2.0".
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "openmpi"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+make: Nothing to be done for 'all'.
+srun ./ass2 -p -r -H 100001 -W 100001 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001711: task 1: Segmentation fault (core dumped)
+srun: Terminating StepId=33303191.0
+slurmstepd: error: *** STEP 33303191.0 ON nid001148 CANCELLED AT 2025-10-14T19:27:49 ***
+srun: error: nid001719: task 2: Segmentation fault (core dumped)
+srun: error: nid002582: task 3: Killed
+srun: error: nid001148: task 0: Killed
+srun: Force Terminated StepId=33303191.0
+srun ./ass2 -p -r -H 100001 -W 200002 -kW 36 -kH 36 -sH 2 -sW 1
+srun: error: nid001711: task 1: Segmentation fault (core dumped)
+srun: Terminating StepId=33303191.1
+slurmstepd: error: *** STEP 33303191.1 ON nid001148 CANCELLED AT 2025-10-14T19:33:06 ***
+srun: error: nid002582: task 3: Terminated
+srun: error: nid001148: task 0: Terminated
+srun: error: nid001719: task 2: Killed
+srun: Force Terminated StepId=33303191.1
+srun ./ass2 -p -r -H 100001 -W 300003 -kW 36 -kH 36 -sH 3 -sW 1
+slurmstepd: error: Detected 1 oom_kill event in StepId=33303191.2. Some of the step tasks have been OOM Killed.
+srun: error: nid001148: task 0: Out Of Memory
+srun: Terminating StepId=33303191.2
+srun: error: nid002582: task 3: Terminated
+srun: error: nid001711: task 1: Terminated
+srun: error: nid001719: task 2: Terminated
+srun: Force Terminated StepId=33303191.2

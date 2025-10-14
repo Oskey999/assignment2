@@ -1,0 +1,40 @@
+
+Lmod is automatically replacing "gcc-native/14.2" with "gcc/12.2.0".
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "openmpi"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+make: Nothing to be done for 'all'.
+srun ./ass2 -p -r -H 200001 -W 200001 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001265: task 0: Out Of Memory
+srun: Terminating StepId=33303133.0
+slurmstepd: error: Detected 1 oom_kill event in StepId=33303133.0. Some of the step tasks have been OOM Killed.
+srun: error: nid001342: task 2: Terminated
+srun: error: nid001270: task 1: Terminated
+srun: error: nid001359: task 3: Terminated
+srun: Force Terminated StepId=33303133.0
+srun ./ass2 -p -r -H 200001 -W 400002 -kW 36 -kH 36 -sH 2 -sW 1
+Memory allocation failed
+srun: error: nid001265: task 0: Exited with exit code 1
+srun: Terminating StepId=33303133.1
+srun: error: nid001359: task 3: Terminated
+srun: error: nid001270: task 1: Terminated
+srun: error: nid001342: task 2: Terminated
+srun: Force Terminated StepId=33303133.1
+srun ./ass2 -p -r -H 200001 -W 600003 -kW 36 -kH 36 -sH 3 -sW 1
+Memory allocation failed
+srun: error: nid001265: task 0: Exited with exit code 1
+srun: Terminating StepId=33303133.2
+srun: error: nid001342: task 2: Terminated
+srun: error: nid001270: task 1: Terminated
+srun: error: nid001359: task 3: Terminated
+srun: Force Terminated StepId=33303133.2

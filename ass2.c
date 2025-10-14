@@ -291,198 +291,198 @@ float **pad_matrix(float **matrix, int rows, int cols,
 
 
 
-float** conv2d_stride_2d(float **input2d, int in_h, int in_w,
-                         float **kernel, int k_h, int k_w,
-                         int stride_h, int stride_w,
-                         int *out_h, int *out_w) {
-    //printif("Starting conv2d_stride_2d...\n");
-    // Convert input2d to 1D array
-    //printif("in_h=%d in_w=%d sizeof(float)=%zu total=%zu\n",
-    //    in_h, in_w, sizeof(float), (size_t)in_h * in_w * sizeof(float));
-    size_t total = (size_t)in_h * (size_t)in_w * sizeof(float);
-    float *input = malloc(total);
-    //printif("Input dimensions: %dx%d\n", in_h, in_w);
-    // print_matrix(input2d, in_h, in_w,3);
-    //printif("Input array allocated.\n");
-    if (!input) return NULL;
-    for (int i = 0; i < in_h; ++i){
-        for (int j = 0; j < in_w; ++j){
-            //printif("Copying input2d[%d][%d] =  to input[%d]\n", i, j, i * in_w + j);
-            input[i * in_w + j] = input2d[i][j];
-            //printif("input");
-        }
-    }
-    free_matrix(input2d, in_h);
-    //printif("Input copy done.\n");
-    // *out_h = ceil((in_h - k_h) / stride_h) + 1;
-    // *out_w = ceil((in_w - k_w) / stride_w) + 1;
-    // *out_h = (int)ceil((float)in_h / stride_h);
-    // *out_w = (int)ceil((float)in_w / stride_w);
-    // *out_h = (int)ceil((float)(in_h - k_h + 1) / stride_h);
-    // *out_w = (int)ceil((float)(in_w - k_w + 1) / stride_w);
-    *out_h = (in_h - k_h) / stride_h + 1;   // integer division -> floor((in_h-k)/stride)+1
-    *out_w = (in_w - k_w) / stride_w + 1;   
-    // while (( (*out_h - 1) * stride_h + k_h ) > in_h) (*out_h)--;
-    // while (( (*out_w - 1) * stride_w + k_w ) > in_w) (*out_w)--;
-    //printif("Output dimensions: %dx%d\n", *out_h, *out_w);
-    //printif("Output from conv2d_stride_2d before reshaping:\n");
-    float **output = (float**)malloc((*out_h) * sizeof(float*));
-    float *output1d = (float*)malloc((*out_h) * (*out_w) * sizeof(float));
-    if (!output) { free(input); return NULL; }
-    for (int i = 0; i < *out_h; ++i) {
-        output[i] = (float*)malloc((*out_w) * sizeof(float));
-        if (!output[i]) {
-            for (int k = 0; k < i; ++k) free(output[k]);
-            free(output);
-            free(input);
-            return NULL;
-        }
-    }
+// float** conv2d_stride_2d(float **input2d, int in_h, int in_w,
+//                          float **kernel, int k_h, int k_w,
+//                          int stride_h, int stride_w,
+//                          int *out_h, int *out_w) {
+//     //printif("Starting conv2d_stride_2d...\n");
+//     // Convert input2d to 1D array
+//     //printif("in_h=%d in_w=%d sizeof(float)=%zu total=%zu\n",
+//     //    in_h, in_w, sizeof(float), (size_t)in_h * in_w * sizeof(float));
+//     size_t total = (size_t)in_h * (size_t)in_w * sizeof(float);
+//     float *input = malloc(total);
+//     //printif("Input dimensions: %dx%d\n", in_h, in_w);
+//     // print_matrix(input2d, in_h, in_w,3);
+//     //printif("Input array allocated.\n");
+//     if (!input) return NULL;
+//     for (int i = 0; i < in_h; ++i){
+//         for (int j = 0; j < in_w; ++j){
+//             //printif("Copying input2d[%d][%d] =  to input[%d]\n", i, j, i * in_w + j);
+//             input[i * in_w + j] = input2d[i][j];
+//             //printif("input");
+//         }
+//     }
+//     free_matrix(input2d, in_h);
+//     //printif("Input copy done.\n");
+//     // *out_h = ceil((in_h - k_h) / stride_h) + 1;
+//     // *out_w = ceil((in_w - k_w) / stride_w) + 1;
+//     // *out_h = (int)ceil((float)in_h / stride_h);
+//     // *out_w = (int)ceil((float)in_w / stride_w);
+//     // *out_h = (int)ceil((float)(in_h - k_h + 1) / stride_h);
+//     // *out_w = (int)ceil((float)(in_w - k_w + 1) / stride_w);
+//     *out_h = (in_h - k_h) / stride_h + 1;   // integer division -> floor((in_h-k)/stride)+1
+//     *out_w = (in_w - k_w) / stride_w + 1;   
+//     // while (( (*out_h - 1) * stride_h + k_h ) > in_h) (*out_h)--;
+//     // while (( (*out_w - 1) * stride_w + k_w ) > in_w) (*out_w)--;
+//     //printif("Output dimensions: %dx%d\n", *out_h, *out_w);
+//     //printif("Output from conv2d_stride_2d before reshaping:\n");
+//     float **output = (float**)malloc((*out_h) * sizeof(float*));
+//     float *output1d = (float*)malloc((*out_h) * (*out_w) * sizeof(float));
+//     if (!output) { free(input); return NULL; }
+//     for (int i = 0; i < *out_h; ++i) {
+//         output[i] = (float*)malloc((*out_w) * sizeof(float));
+//         if (!output[i]) {
+//             for (int k = 0; k < i; ++k) free(output[k]);
+//             free(output);
+//             free(input);
+//             return NULL;
+//         }
+//     }
 
-    double start = omp_get_wtime();
-    //printif("Output from conv2d_stride_2d before reshaping:\n");
-    for (int i = 0; i < *out_h; ++i) {
-        for (int j = 0; j < *out_w; ++j) {
-            float sum = 0.0f;
-            int in_i = i * stride_h;
-            int in_j = j * stride_w;
-            for (int ki = 0; ki < k_h; ++ki) {
-                for (int kj = 0; kj < k_w; ++kj) {
-                    int ii = in_i + ki;
-                    int jj = in_j + kj;
-                    if (ii < in_h && jj < in_w) {   // boundary check!
-                        sum += input[ii * in_w + jj] * kernel[ki][kj];
-                    }
-                }
-            }
-            output1d[i*(*out_w)+j] = sum;
-        }
-    }
-    double end = omp_get_wtime();
-    double local_compute_time = end - start;
-    double total_time = end - start;
-    //printif("Output from conv2d_stride_2d before reshaping:\n");
-    for (int i = 0; i < *out_h; ++i) {
-        for (int j = 0; j < *out_w; ++j) {
-            output[i][j] = output1d[i*(*out_w)+j];
-        }
-    }
-    if(record)
-        {
-            const char *filename = "conv2d_log.csv";
-            FILE *fp = fopen(filename, "a");  // open in append mode
-            if (fp == NULL) {
-                fprintf(stderr, "Error: Could not open %s for writing.\n", filename);
-            } else {
-                // If file is empty, write header
-                fseek(fp, 0, SEEK_END);
-                long size = ftell(fp);
-                if (size == 0) {
-                    fprintf(fp, "in_h,in_w,k_h,k_w,stride_h,stride_w,out_h,out_w,num_procs,num_threads,local_time_s,total_time_s,type\n");
-                }
+//     double start = omp_get_wtime();
+//     //printif("Output from conv2d_stride_2d before reshaping:\n");
+//     for (int i = 0; i < *out_h; ++i) {
+//         for (int j = 0; j < *out_w; ++j) {
+//             float sum = 0.0f;
+//             int in_i = i * stride_h;
+//             int in_j = j * stride_w;
+//             for (int ki = 0; ki < k_h; ++ki) {
+//                 for (int kj = 0; kj < k_w; ++kj) {
+//                     int ii = in_i + ki;
+//                     int jj = in_j + kj;
+//                     if (ii < in_h && jj < in_w) {   // boundary check!
+//                         sum += input[ii * in_w + jj] * kernel[ki][kj];
+//                     }
+//                 }
+//             }
+//             output1d[i*(*out_w)+j] = sum;
+//         }
+//     }
+//     double end = omp_get_wtime();
+//     double local_compute_time = end - start;
+//     double total_time = end - start;
+//     //printif("Output from conv2d_stride_2d before reshaping:\n");
+//     for (int i = 0; i < *out_h; ++i) {
+//         for (int j = 0; j < *out_w; ++j) {
+//             output[i][j] = output1d[i*(*out_w)+j];
+//         }
+//     }
+//     if(record)
+//         {
+//             const char *filename = "conv2d_log.csv";
+//             FILE *fp = fopen(filename, "a");  // open in append mode
+//             if (fp == NULL) {
+//                 fprintf(stderr, "Error: Could not open %s for writing.\n", filename);
+//             } else {
+//                 // If file is empty, write header
+//                 fseek(fp, 0, SEEK_END);
+//                 long size = ftell(fp);
+//                 if (size == 0) {
+//                     fprintf(fp, "in_h,in_w,k_h,k_w,stride_h,stride_w,out_h,out_w,num_procs,num_threads,local_time_s,total_time_s,type\n");
+//                 }
 
-                fprintf(fp, "%d,%d,%d,%d,%d,%d,%d,%d,%ld,%d,%.6f,%.6f,none\n",
-                        in_h, in_w, k_h, k_w, stride_h, stride_w, *out_h, *out_w,
-                        size, 0,
-                        local_compute_time, total_time);
+//                 fprintf(fp, "%d,%d,%d,%d,%d,%d,%d,%d,%ld,%d,%.6f,%.6f,none\n",
+//                         in_h, in_w, k_h, k_w, stride_h, stride_w, *out_h, *out_w,
+//                         size, 0,
+//                         local_compute_time, total_time);
 
-                fclose(fp);
-            printif("[Rank 0] Logged results to %s\n", filename);
-            }
-        }
-    free(input);
-    return output;
-}
-float** conv2d_stride_2d_MPI(float **input2d, int in_h, int in_w,
-                             float **kernel, int k_h, int k_w,
-                             int stride_h, int stride_w,
-                             int *out_h, int *out_w)
-{
-    int rank, size;
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &size);
+//                 fclose(fp);
+//             printif("[Rank 0] Logged results to %s\n", filename);
+//             }
+//         }
+//     free(input);
+//     return output;
+// }
+// float** conv2d_stride_2d_MPI(float **input2d, int in_h, int in_w,
+//                              float **kernel, int k_h, int k_w,
+//                              int stride_h, int stride_w,
+//                              int *out_h, int *out_w)
+// {
+//     int rank, size;
+//     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+//     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-    // if (rank == 0)
-        //printif("Starting conv2d_stride_2d_MPI with %d processes...\n", size);
+//     // if (rank == 0)
+//         //printif("Starting conv2d_stride_2d_MPI with %d processes...\n", size);
 
-    // Flatten input
-    float *input = (float*)malloc(in_h * in_w * sizeof(float));
-    for (int i = 0; i < in_h; ++i)
-        for (int j = 0; j < in_w; ++j)
-            input[i * in_w + j] = input2d[i][j];
+//     // Flatten input
+//     float *input = (float*)malloc(in_h * in_w * sizeof(float));
+//     for (int i = 0; i < in_h; ++i)
+//         for (int j = 0; j < in_w; ++j)
+//             input[i * in_w + j] = input2d[i][j];
 
-    // Compute output size
-    *out_h = (in_h - k_h) / stride_h + 1;
-    *out_w = (in_w - k_w) / stride_w + 1;
+//     // Compute output size
+//     *out_h = (in_h - k_h) / stride_h + 1;
+//     *out_w = (in_w - k_w) / stride_w + 1;
 
-    // Determine workload for each process
-    int rows_per_proc = (*out_h) / size;
-    int remainder = (*out_h) % size;
+//     // Determine workload for each process
+//     int rows_per_proc = (*out_h) / size;
+//     int remainder = (*out_h) % size;
 
-    int *sendcounts = (int*)malloc(size * sizeof(int));
-    int *displs     = (int*)malloc(size * sizeof(int));
-    int offset = 0;
-    for (int i = 0; i < size; i++) {
-        int rows = rows_per_proc + (i < remainder ? 1 : 0);
-        sendcounts[i] = rows * (*out_w);
-        displs[i] = offset;
-        offset += sendcounts[i];
-    }
+//     int *sendcounts = (int*)malloc(size * sizeof(int));
+//     int *displs     = (int*)malloc(size * sizeof(int));
+//     int offset = 0;
+//     for (int i = 0; i < size; i++) {
+//         int rows = rows_per_proc + (i < remainder ? 1 : 0);
+//         sendcounts[i] = rows * (*out_w);
+//         displs[i] = offset;
+//         offset += sendcounts[i];
+//     }
 
-    // Allocate output buffers
-    int local_rows = sendcounts[rank] / (*out_w);
-    float *local_output = (float*)calloc(local_rows * (*out_w), sizeof(float));
+//     // Allocate output buffers
+//     int local_rows = sendcounts[rank] / (*out_w);
+//     float *local_output = (float*)calloc(local_rows * (*out_w), sizeof(float));
 
-    // Each process computes its assigned output rows
-    int start_row = 0;
-    for (int i = 0; i < rank; i++)
-        start_row += sendcounts[i] / (*out_w);
+//     // Each process computes its assigned output rows
+//     int start_row = 0;
+//     for (int i = 0; i < rank; i++)
+//         start_row += sendcounts[i] / (*out_w);
 
-    for (int i = 0; i < local_rows; i++) {
-        int global_i = start_row + i;
-        for (int j = 0; j < *out_w; j++) {
-            float sum = 0.0f;
-            int in_i = global_i * stride_h;
-            int in_j = j * stride_w;
-            for (int ki = 0; ki < k_h; ki++)
-                for (int kj = 0; kj < k_w; kj++) {
-                    int ii = in_i + ki;
-                    int jj = in_j + kj;
-                    if (ii < in_h && jj < in_w)
-                        sum += input[ii * in_w + jj] * kernel[ki][kj];
-                }
-            local_output[i * (*out_w) + j] = sum;
-        }
-    }
+//     for (int i = 0; i < local_rows; i++) {
+//         int global_i = start_row + i;
+//         for (int j = 0; j < *out_w; j++) {
+//             float sum = 0.0f;
+//             int in_i = global_i * stride_h;
+//             int in_j = j * stride_w;
+//             for (int ki = 0; ki < k_h; ki++)
+//                 for (int kj = 0; kj < k_w; kj++) {
+//                     int ii = in_i + ki;
+//                     int jj = in_j + kj;
+//                     if (ii < in_h && jj < in_w)
+//                         sum += input[ii * in_w + jj] * kernel[ki][kj];
+//                 }
+//             local_output[i * (*out_w) + j] = sum;
+//         }
+//     }
 
-    // Gather all partial outputs on rank 0
-    float *output1d = NULL;
-    if (rank == 0)
-        output1d = (float*)malloc((*out_h) * (*out_w) * sizeof(float));
+//     // Gather all partial outputs on rank 0
+//     float *output1d = NULL;
+//     if (rank == 0)
+//         output1d = (float*)malloc((*out_h) * (*out_w) * sizeof(float));
 
-    MPI_Gatherv(local_output, sendcounts[rank], MPI_FLOAT,
-                output1d, sendcounts, displs, MPI_FLOAT,
-                0, MPI_COMM_WORLD);
+//     MPI_Gatherv(local_output, sendcounts[rank], MPI_FLOAT,
+//                 output1d, sendcounts, displs, MPI_FLOAT,
+//                 0, MPI_COMM_WORLD);
 
-    float **output2d = NULL;
-    if (rank == 0) {
-        output2d = (float**)malloc((*out_h) * sizeof(float*));
-        for (int i = 0; i < *out_h; i++) {
-            output2d[i] = (float*)malloc((*out_w) * sizeof(float));
-            for (int j = 0; j < *out_w; j++)
-                output2d[i][j] = output1d[i * (*out_w) + j];
-        }
-    }
+//     float **output2d = NULL;
+//     if (rank == 0) {
+//         output2d = (float**)malloc((*out_h) * sizeof(float*));
+//         for (int i = 0; i < *out_h; i++) {
+//             output2d[i] = (float*)malloc((*out_w) * sizeof(float));
+//             for (int j = 0; j < *out_w; j++)
+//                 output2d[i][j] = output1d[i * (*out_w) + j];
+//         }
+//     }
 
-    free(input);
-    free(local_output);
-    free(sendcounts);
-    free(displs);
-    if (rank == 0)
-        free(output1d);
+//     free(input);
+//     free(local_output);
+//     free(sendcounts);
+//     free(displs);
+//     if (rank == 0)
+//         free(output1d);
 
-    return output2d;
-}
+//     return output2d;
+// }
 
 // void conv2d_stride_2d_MPI_OMP(float **input2d, int in_h, int in_w,
 //                              float **kernel, int k_h, int k_w,
