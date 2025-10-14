@@ -1,19 +1,21 @@
 #!/bin/bash
-#SBATCH --cpus-per-task=36
-#SBATCH --ntasks=8
+#SBATCH --nodes=4
+#SBATCH --partition=work
+#SBATCH --account=courses0101
+#SBATCH --mem=64GB
+#SBATCH --ntasks-per-node=1     # 8 MPI ranks per node
+#SBATCH --cpus-per-task=16      # 16 threads per rank
 #SBATCH --time=00:15:00
-#SBATCH --mem=256G
-#SBATCH --partition=cits3402
 module load gcc openmpi
 make
-for i in $(seq 400001 5000 400001); do
+for i in $(seq 40001 5000 40001); do
     for j in $(seq 36 15 36); do
         # for k in $(seq 1 1 3); do 
             for l in $(seq 1 1 3); do
                    H=$((i ))
                     W=$((i * l))
-                    echo "mpiexec -n ${SLURM_NTASKS} ass2 -r -H $H -W $W -kW $j -kH $j -sH $l -sW 1"
-                    mpiexec -n ${SLURM_NTASKS} ass2 -r -H $H -W $W -kW $j -kH $j -sH $l -sW 1
+                    echo "srun ./ass2 -p -r -H $H -W $W -kW $j -kH $j -sH $l -sW 1"
+                    srun ./ass2 -p -r -H $H -W $W -kW $j -kH $j -sH $l -sW 1
                     wait
                     pkill -f orted
                     pkill -f hydra_proxy
