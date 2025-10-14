@@ -1,0 +1,37 @@
+
+Lmod is automatically replacing "gcc-native/14.2" with "gcc/12.2.0".
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "openmpi"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+make: Nothing to be done for 'all'.
+srun ./ass2 -p -r -H 50001 -W 50001 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid002327: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33304976.0
+srun: error: nid002411: task 3: Terminated
+srun: error: nid002362: task 2: Terminated
+srun: error: nid002329: task 1: Terminated
+srun: Force Terminated StepId=33304976.0
+srun ./ass2 -p -r -H 50001 -W 100002 -kW 36 -kH 36 -sH 2 -sW 1
+srun: error: nid002327: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33304976.1
+srun: error: nid002411: task 3: Terminated
+srun: error: nid002329: task 1: Terminated
+srun: error: nid002362: task 2: Terminated
+srun: Force Terminated StepId=33304976.1
+srun ./ass2 -p -r -H 50001 -W 150003 -kW 36 -kH 36 -sH 3 -sW 1
+srun: error: nid002327: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33304976.2
+srun: error: nid002411: task 3: Terminated
+srun: error: nid002329: task 1: Terminated
+srun: error: nid002362: task 2: Terminated
+srun: Force Terminated StepId=33304976.2

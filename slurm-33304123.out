@@ -1,0 +1,53 @@
+
+Lmod is automatically replacing "gcc-native/14.2" with "gcc/12.2.0".
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "openmpi"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+cc                      -O3 -fopenmp -Wall     -o ass2 ass2.c -fopenmp             
+ass2.c: In function ‘main’:
+ass2.c:1746:78: warning: unused variable ‘ofile’ [-Wunused-variable]
+ 1746 |     char *save="", *ksave="", *osave="" , *ffile="f1.txt", *gfile="g1.txt", *ofile="o1.txt";
+      |                                                                              ^~~~~
+ass2.c:1951:66: warning: ‘padw’ may be used uninitialized [-Wmaybe-uninitialized]
+ 1951 |             save_matrix(save, padded_matrix, height+2*padh, width+2*padw,3);
+      |                                                             ~~~~~^~~~~~~
+ass2.c:1809:17: note: ‘padw’ was declared here
+ 1809 |     float padh, padw;
+      |                 ^~~~
+ass2.c:1951:52: warning: ‘padh’ may be used uninitialized [-Wmaybe-uninitialized]
+ 1951 |             save_matrix(save, padded_matrix, height+2*padh, width+2*padw,3);
+      |                                              ~~~~~~^~~~~~~
+ass2.c:1809:11: note: ‘padh’ was declared here
+ 1809 |     float padh, padw;
+      |           ^~~~
+srun ./ass2 -p -r -H 50001 -W 50001 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001995: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33304123.0
+srun: error: nid002000: task 1: Terminated
+srun: error: nid002001: task 2: Terminated
+srun: error: nid002002: task 3: Terminated
+srun: Force Terminated StepId=33304123.0
+srun ./ass2 -p -r -H 50001 -W 100002 -kW 36 -kH 36 -sH 2 -sW 1
+srun: error: nid001995: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33304123.1
+srun: error: nid002001: task 2: Terminated
+srun: error: nid002002: task 3: Terminated
+srun: error: nid002000: task 1: Terminated
+srun: Force Terminated StepId=33304123.1
+srun ./ass2 -p -r -H 50001 -W 150003 -kW 36 -kH 36 -sH 3 -sW 1
+srun: error: nid001995: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33304123.2
+srun: error: nid002002: task 3: Terminated
+srun: error: nid002000: task 1: Terminated
+srun: error: nid002001: task 2: Terminated
+srun: Force Terminated StepId=33304123.2

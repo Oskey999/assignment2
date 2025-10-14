@@ -1,0 +1,76 @@
+
+Lmod is automatically replacing "gcc-native/14.2" with "gcc/12.2.0".
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "openmpi"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+make: Nothing to be done for 'all'.
+srun ./ass2 -p -r -H 5001 -W 5001 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 5001x5001 to 5036x5036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 96.75 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=1286 (input_start_row=0, input_end_row=1285)
+Convolution done
+Output Matrix size: 5001x5001
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=1285 (input_start_row=3751, input_end_row=5035)
+Convolution done
+Output Matrix size: 5001x5001
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=1285 (input_start_row=2501, input_end_row=3785)
+Convolution done
+Output Matrix size: 5001x5001
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=1285 (input_start_row=1251, input_end_row=2535)
+Convolution done
+Output Matrix size: 5001x5001
+srun ./ass2 -p -r -H 5001 -W 10002 -kW 36 -kH 36 -sH 2 -sW 1
+Starting convolution with stride 2,1
+[Rank 3] local_input1d rows=1284 (input_start_row=3752, input_end_row=5035)
+Convolution done
+Output Matrix size: 2501x10002
+Padding matrix from 5001x10002 to 5036x10037 (top=17, bottom=18, left=17, right=18)
+Padding complete using 192.82 MB total.
+Starting convolution with stride 2,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=1286 (input_start_row=0, input_end_row=1285)
+Convolution done
+Output Matrix size: 2501x10002
+Starting convolution with stride 2,1
+[Rank 1] local_input1d rows=1284 (input_start_row=1252, input_end_row=2535)
+Convolution done
+Output Matrix size: 2501x10002
+Starting convolution with stride 2,1
+[Rank 2] local_input1d rows=1284 (input_start_row=2502, input_end_row=3785)
+Convolution done
+Output Matrix size: 2501x10002
+srun ./ass2 -p -r -H 5001 -W 15003 -kW 36 -kH 36 -sH 3 -sW 1
+Padding matrix from 5001x15003 to 5036x15038 (top=17, bottom=18, left=17, right=18)
+Padding complete using 288.89 MB total.
+Starting convolution with stride 3,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=1284 (input_start_row=0, input_end_row=1283)
+Convolution done
+Output Matrix size: 1667x15003
+Starting convolution with stride 3,1
+[Rank 2] local_input1d rows=1284 (input_start_row=2502, input_end_row=3785)
+Convolution done
+Output Matrix size: 1667x15003
+Starting convolution with stride 3,1
+[Rank 1] local_input1d rows=1284 (input_start_row=1251, input_end_row=2534)
+Convolution done
+Output Matrix size: 1667x15003
+Starting convolution with stride 3,1
+[Rank 3] local_input1d rows=1281 (input_start_row=3753, input_end_row=5033)
+Convolution done
+Output Matrix size: 1667x15003

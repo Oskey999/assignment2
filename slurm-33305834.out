@@ -1,0 +1,334 @@
+
+Lmod is automatically replacing "gcc-native/14.2" with "gcc/12.2.0".
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "openmpi"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+make: Nothing to be done for 'all'.
+srun ./ass2 -p -r -H 40001 -W 40001 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 40001x40001 to 40036x40036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 6114.51 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=10036 (input_start_row=0, input_end_row=10035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=10035 (input_start_row=30001, input_end_row=40035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=10035 (input_start_row=20001, input_end_row=30035)
+Convolution done
+Output Matrix size: 40001x40001
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=10035 (input_start_row=10001, input_end_row=20035)
+Convolution done
+Output Matrix size: 40001x40001
+srun ./ass2 -p -r -H 40501 -W 40501 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 40501x40501 to 40536x40536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 6268.19 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=10161 (input_start_row=0, input_end_row=10160)
+Convolution done
+Output Matrix size: 40501x40501
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=10160 (input_start_row=10126, input_end_row=20285)
+Convolution done
+Output Matrix size: 40501x40501
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=10160 (input_start_row=20251, input_end_row=30410)
+Convolution done
+Output Matrix size: 40501x40501
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=10160 (input_start_row=30376, input_end_row=40535)
+Convolution done
+Output Matrix size: 40501x40501
+srun ./ass2 -p -r -H 41001 -W 41001 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 41001x41001 to 41036x41036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 6423.77 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=10286 (input_start_row=0, input_end_row=10285)
+Convolution done
+Output Matrix size: 41001x41001
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=10285 (input_start_row=10251, input_end_row=20535)
+Convolution done
+Output Matrix size: 41001x41001
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=10285 (input_start_row=20501, input_end_row=30785)
+Convolution done
+Output Matrix size: 41001x41001
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=10285 (input_start_row=30751, input_end_row=41035)
+Convolution done
+Output Matrix size: 41001x41001
+srun ./ass2 -p -r -H 41501 -W 41501 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 41501x41501 to 41536x41536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 6581.27 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=10411 (input_start_row=0, input_end_row=10410)
+Convolution done
+Output Matrix size: 41501x41501
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=10410 (input_start_row=31126, input_end_row=41535)
+Convolution done
+Output Matrix size: 41501x41501
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=10410 (input_start_row=20751, input_end_row=31160)
+Convolution done
+Output Matrix size: 41501x41501
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=10410 (input_start_row=10376, input_end_row=20785)
+Convolution done
+Output Matrix size: 41501x41501
+srun ./ass2 -p -r -H 42001 -W 42001 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 42001x42001 to 42036x42036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 6740.67 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=10536 (input_start_row=0, input_end_row=10535)
+Convolution done
+Output Matrix size: 42001x42001
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=10535 (input_start_row=10501, input_end_row=21035)
+Convolution done
+Output Matrix size: 42001x42001
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=10535 (input_start_row=31501, input_end_row=42035)
+Convolution done
+Output Matrix size: 42001x42001
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=10535 (input_start_row=21001, input_end_row=31535)
+Convolution done
+Output Matrix size: 42001x42001
+srun ./ass2 -p -r -H 42501 -W 42501 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 42501x42501 to 42536x42536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 6901.97 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=10661 (input_start_row=0, input_end_row=10660)
+Convolution done
+Output Matrix size: 42501x42501
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=10660 (input_start_row=21251, input_end_row=31910)
+Convolution done
+Output Matrix size: 42501x42501
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=10660 (input_start_row=31876, input_end_row=42535)
+Convolution done
+Output Matrix size: 42501x42501
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=10660 (input_start_row=10626, input_end_row=21285)
+Convolution done
+Output Matrix size: 42501x42501
+srun ./ass2 -p -r -H 43001 -W 43001 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 43001x43001 to 43036x43036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 7065.19 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=10786 (input_start_row=0, input_end_row=10785)
+Convolution done
+Output Matrix size: 43001x43001
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=10785 (input_start_row=21501, input_end_row=32285)
+Convolution done
+Output Matrix size: 43001x43001
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=10785 (input_start_row=10751, input_end_row=21535)
+Convolution done
+Output Matrix size: 43001x43001
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=10785 (input_start_row=32251, input_end_row=43035)
+Convolution done
+Output Matrix size: 43001x43001
+srun ./ass2 -p -r -H 43501 -W 43501 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 43501x43501 to 43536x43536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 7230.31 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=10911 (input_start_row=0, input_end_row=10910)
+Convolution done
+Output Matrix size: 43501x43501
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=10910 (input_start_row=10876, input_end_row=21785)
+Convolution done
+Output Matrix size: 43501x43501
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=10910 (input_start_row=32626, input_end_row=43535)
+Convolution done
+Output Matrix size: 43501x43501
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=10910 (input_start_row=21751, input_end_row=32660)
+Convolution done
+Output Matrix size: 43501x43501
+srun ./ass2 -p -r -H 44001 -W 44001 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 44001x44001 to 44036x44036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 7397.34 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=11036 (input_start_row=0, input_end_row=11035)
+Convolution done
+Output Matrix size: 44001x44001
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=11035 (input_start_row=33001, input_end_row=44035)
+Convolution done
+Output Matrix size: 44001x44001
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=11035 (input_start_row=11001, input_end_row=22035)
+Convolution done
+Output Matrix size: 44001x44001
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=11035 (input_start_row=22001, input_end_row=33035)
+Convolution done
+Output Matrix size: 44001x44001
+srun ./ass2 -p -r -H 44501 -W 44501 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 44501x44501 to 44536x44536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 7566.28 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=11161 (input_start_row=0, input_end_row=11160)
+Convolution done
+Output Matrix size: 44501x44501
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=11160 (input_start_row=11126, input_end_row=22285)
+Convolution done
+Output Matrix size: 44501x44501
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=11160 (input_start_row=33376, input_end_row=44535)
+Convolution done
+Output Matrix size: 44501x44501
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=11160 (input_start_row=22251, input_end_row=33410)
+Convolution done
+Output Matrix size: 44501x44501
+srun ./ass2 -p -r -H 45001 -W 45001 -kW 36 -kH 36 -sH 1 -sW 1
+srun: Step created for StepId=33305834.10
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=11285 (input_start_row=11251, input_end_row=22535)
+Convolution done
+Output Matrix size: 45001x45001
+Padding matrix from 45001x45001 to 45036x45036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 7737.13 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=11286 (input_start_row=0, input_end_row=11285)
+Convolution done
+Output Matrix size: 45001x45001
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=11285 (input_start_row=22501, input_end_row=33785)
+Convolution done
+Output Matrix size: 45001x45001
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=11285 (input_start_row=33751, input_end_row=45035)
+Convolution done
+Output Matrix size: 45001x45001
+srun ./ass2 -p -r -H 45501 -W 45501 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 45501x45501 to 45536x45536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 7909.88 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=11411 (input_start_row=0, input_end_row=11410)
+Convolution done
+Output Matrix size: 45501x45501
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=11410 (input_start_row=22751, input_end_row=34160)
+Convolution done
+Output Matrix size: 45501x45501
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=11410 (input_start_row=34126, input_end_row=45535)
+Convolution done
+Output Matrix size: 45501x45501
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=11410 (input_start_row=11376, input_end_row=22785)
+Convolution done
+Output Matrix size: 45501x45501
+srun ./ass2 -p -r -H 46001 -W 46001 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 46001x46001 to 46036x46036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 8084.54 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 4 processes...
+[Rank 0] local_input1d rows=11536 (input_start_row=0, input_end_row=11535)
+Convolution done
+Output Matrix size: 46001x46001
+Starting convolution with stride 1,1
+[Rank 3] local_input1d rows=11535 (input_start_row=34501, input_end_row=46035)
+Convolution done
+Output Matrix size: 46001x46001
+Starting convolution with stride 1,1
+[Rank 2] local_input1d rows=11535 (input_start_row=23001, input_end_row=34535)
+Convolution done
+Output Matrix size: 46001x46001
+Starting convolution with stride 1,1
+[Rank 1] local_input1d rows=11535 (input_start_row=11501, input_end_row=23035)
+Convolution done
+Output Matrix size: 46001x46001
+srun ./ass2 -p -r -H 46501 -W 46501 -kW 36 -kH 36 -sH 1 -sW 1
+srun: Step created for StepId=33305834.13
+srun: error: nid001258: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33305834.13
+srun: error: nid001259: task 1: Terminated
+srun: error: nid001260: task 2: Terminated
+srun: error: nid001261: task 3: Terminated
+srun: Force Terminated StepId=33305834.13
+srun ./ass2 -p -r -H 47001 -W 47001 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001258: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33305834.14
+srun: error: nid001260: task 2: Terminated
+srun: error: nid001261: task 3: Terminated
+srun: error: nid001259: task 1: Terminated
+srun: Force Terminated StepId=33305834.14
+srun ./ass2 -p -r -H 47501 -W 47501 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001258: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33305834.15
+srun: error: nid001260: task 2: Terminated
+srun: error: nid001261: task 3: Terminated
+srun: error: nid001259: task 1: Terminated
+srun: Force Terminated StepId=33305834.15
+srun ./ass2 -p -r -H 48001 -W 48001 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001258: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33305834.16
+srun: error: nid001260: task 2: Terminated
+srun: error: nid001259: task 1: Terminated
+srun: error: nid001261: task 3: Terminated
+srun: Force Terminated StepId=33305834.16
+srun ./ass2 -p -r -H 48501 -W 48501 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001258: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33305834.17
+srun: error: nid001260: task 2: Terminated
+srun: error: nid001259: task 1: Terminated
+srun: error: nid001261: task 3: Terminated
+srun: Force Terminated StepId=33305834.17
+srun ./ass2 -p -r -H 49001 -W 49001 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001258: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33305834.18
+srun: error: nid001259: task 1: Terminated
+srun: error: nid001260: task 2: Terminated
+srun: error: nid001261: task 3: Terminated
+srun: Force Terminated StepId=33305834.18
+srun ./ass2 -p -r -H 49501 -W 49501 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001258: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33305834.19
+srun: error: nid001261: task 3: Terminated
+srun: error: nid001259: task 1: Terminated
+srun: error: nid001260: task 2: Terminated
+srun: Force Terminated StepId=33305834.19
+srun ./ass2 -p -r -H 50001 -W 50001 -kW 36 -kH 36 -sH 1 -sW 1
+srun: error: nid001258: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=33305834.20
+srun: error: nid001261: task 3: Terminated
+srun: error: nid001260: task 2: Terminated
+srun: error: nid001259: task 1: Terminated
+srun: Force Terminated StepId=33305834.20
