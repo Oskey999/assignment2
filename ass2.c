@@ -1675,9 +1675,57 @@ void conv2d_stride_2d_MPI_OMP(float **input2d, int in_h, int in_w,
         if (!output1d) MPI_Abort(comm, EXIT_FAILURE);
     }
     double local_end = MPI_Wtime();
-    MPI_Gatherv(local_output, local_out_rows * (*out_w), MPI_FLOAT,
-                output1d, sendcounts, displs, MPI_FLOAT,
-                0, comm);
+    // MPI_Gatherv(local_output, local_out_rows * (*out_w), MPI_FLOAT,
+    //             output1d, sendcounts, displs, MPI_FLOAT,
+    //             0, comm);
+    /**
+     * Safe Version of gather that keeps transmissions under 2GB
+     * by breaking the gather into multiple smaller gathers if needed.
+     */
+    // Safe chunk: 128 MB worth of floats (~33 million elements)
+    const size_t CHUNK_FLOATS = 32 * 1024 * 1024;  
+    size_t total_elems = (size_t)(*out_h) * (*out_w);
+    size_t offset = 0;
+
+    while (offset < total_elems) {
+        size_t remaining = total_elems - offset;
+        size_t chunk = remaining < CHUNK_FLOATS ? remaining : CHUNK_FLOATS;
+
+        // Compute per-rank sendcounts and displs for this chunk
+        // Only ranks that have data in this chunk participate
+        int *chunk_counts = malloc(size * sizeof(int));
+        int *chunk_displs = malloc(size * sizeof(int));
+
+        for (int r = 0; r < size; r++) {
+            // Each rank has data from displs[r] to displs[r] + sendcounts[r]
+            // We must compute overlap with [offset, offset + chunk)
+            size_t start = displs[r];
+            size_t end = displs[r] + sendcounts[r];
+            size_t cstart = (offset > start) ? offset : start;
+            size_t cend   = (offset + chunk < end) ? (offset + chunk) : end;
+
+            if (cend > cstart)
+                chunk_counts[r] = (int)(cend - cstart);
+            else
+                chunk_counts[r] = 0;
+
+            chunk_displs[r] = (int)((cstart > start) ? (cstart - start) : 0);
+        }
+
+        // Each rank computes its local send pointer for this chunk
+        const float *local_ptr = local_output + chunk_displs[rank];
+        float *root_ptr = output1d + offset;
+
+        MPI_Gatherv(local_ptr, chunk_counts[rank], MPI_FLOAT,
+                    root_ptr, chunk_counts, chunk_displs, MPI_FLOAT,
+                    0, comm);
+
+        offset += chunk;
+
+        free(chunk_counts);
+        free(chunk_displs);
+    }
+
 
     double end_time = MPI_Wtime();
     // printif("[Rank %d] Total time: %.4f s\n", rank, end_time - start_time);
