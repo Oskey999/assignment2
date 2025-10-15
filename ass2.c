@@ -1682,49 +1682,83 @@ void conv2d_stride_2d_MPI_OMP(float **input2d, int in_h, int in_w,
      * Safe Version of gather that keeps transmissions under 2GB
      * by breaking the gather into multiple smaller gathers if needed.
      */
-    // Safe chunk: 128 MB worth of floats (~33 million elements)
-    const size_t CHUNK_FLOATS = 32 * 1024 * 1024;  
-    size_t total_elems = (size_t)(*out_h) * (*out_w);
-    size_t offset = 0;
+     // Constants: tune this to be safely < 2GB in bytes
+    const size_t CHUNK_BYTES = 128 * 1024 * 1024; // 128MB
+    const size_t CHUNK_FLOATS = CHUNK_BYTES / sizeof(float);
 
-    while (offset < total_elems) {
-        size_t remaining = total_elems - offset;
+    size_t total_elems = (size_t)(*out_h) * (*out_w); // total elements in output1d
+
+    // compute global interval owned by this rank (from original displs/sendcounts)
+    size_t rank_global_start = (size_t) displs[rank];
+    size_t rank_global_end = rank_global_start + (size_t) sendcounts[rank]; // one past end
+
+    size_t offset2 = 0;
+    int *chunk_recvcounts = malloc(size * sizeof(int));
+    int *chunk_recvdispls = malloc(size * sizeof(int));
+    if(!chunk_recvcounts || !chunk_recvdispls) MPI_Abort(comm, EXIT_FAILURE);
+
+    while (offset2 < total_elems) {
+        size_t remaining = total_elems - offset2;
         size_t chunk = remaining < CHUNK_FLOATS ? remaining : CHUNK_FLOATS;
 
-        // Compute per-rank sendcounts and displs for this chunk
-        // Only ranks that have data in this chunk participate
-        int *chunk_counts = malloc(size * sizeof(int));
-        int *chunk_displs = malloc(size * sizeof(int));
+        // Compute, for each rank r, how many elements of [offset, offset+chunk) come from r,
+        // and where they go inside the chunk buffer (displacement relative to chunk start).
+        for (int r = 0; r < size; ++r) {
+            size_t r_start = (size_t) displs[r];
+            size_t r_end   = r_start + (size_t) sendcounts[r];
 
-        for (int r = 0; r < size; r++) {
-            // Each rank has data from displs[r] to displs[r] + sendcounts[r]
-            // We must compute overlap with [offset, offset + chunk)
-            size_t start = displs[r];
-            size_t end = displs[r] + sendcounts[r];
-            size_t cstart = (offset > start) ? offset : start;
-            size_t cend   = (offset + chunk < end) ? (offset + chunk) : end;
+            // overlap of [r_start, r_end) and [offset, offset+chunk)
+            size_t ov_start = (r_start > offset2) ? r_start : offset2;
+            size_t ov_end   = (r_end < offset2 + chunk) ? r_end : (offset2 + chunk);
 
-            if (cend > cstart)
-                chunk_counts[r] = (int)(cend - cstart);
-            else
-                chunk_counts[r] = 0;
-
-            chunk_displs[r] = (int)((cstart > start) ? (cstart - start) : 0);
+            if (ov_end > ov_start) {
+                size_t count = ov_end - ov_start;
+                // recvcounts: how many elements to receive from rank r INTO this chunk
+                chunk_recvcounts[r] = (int) count;
+                // recvdispls: where in the root's chunk buffer to place data from rank r
+                chunk_recvdispls[r] = (int) (ov_start - offset2); // relative to chunk start
+            } else {
+                chunk_recvcounts[r] = 0;
+                chunk_recvdispls[r] = 0; // value unused when count==0
+            }
         }
 
-        // Each rank computes its local send pointer for this chunk
-        const float *local_ptr = local_output + chunk_displs[rank];
-        float *root_ptr = output1d + offset;
+        // Now compute what THIS rank must send for this chunk
+        // compute overlap with this rank's interval [rank_global_start, rank_global_end)
+        size_t my_ov_start = (rank_global_start > offset2) ? rank_global_start : offset2;
+        size_t my_ov_end   = (rank_global_end < offset2 + chunk) ? rank_global_end : (offset2 + chunk);
 
-        MPI_Gatherv(local_ptr, chunk_counts[rank], MPI_FLOAT,
-                    root_ptr, chunk_counts, chunk_displs, MPI_FLOAT,
+        int my_sendcount = 0;
+        const float *my_sendptr = NULL;
+        if (my_ov_end > my_ov_start) {
+            my_sendcount = (int) (my_ov_end - my_ov_start);
+            // local offset inside local_output: (my_ov_start - rank_global_start)
+            size_t local_off = my_ov_start - rank_global_start;
+            my_sendptr = local_output + local_off;
+        } else {
+            my_sendcount = 0;
+            // MPI allows sending NULL when count==0 on many implementations,
+            // but to be safe pass a valid pointer when count==0:
+            my_sendptr = local_output; // won't be used because count==0
+        }
+
+        // root pointer for this chunk inside the big output buffer
+        float *root_chunk_ptr = NULL;
+        if (rank == 0) {
+            root_chunk_ptr = output1d + offset2;
+        }
+
+        // Perform the gather for this chunk. Every process calls this.
+        MPI_Gatherv((void*) my_sendptr, my_sendcount, MPI_FLOAT,
+                    root_chunk_ptr, chunk_recvcounts, chunk_recvdispls, MPI_FLOAT,
                     0, comm);
 
-        offset += chunk;
-
-        free(chunk_counts);
-        free(chunk_displs);
+        offset2 += chunk;
     }
+
+    free(chunk_recvcounts);
+    free(chunk_recvdispls);
+
 
 
     double end_time = MPI_Wtime();
