@@ -1,11 +1,12 @@
 #!/bin/bash
 #SBATCH --nodes=4
-#SBATCH --partition=work
-#SBATCH --account=courses0101
+#SBATCH --partition=cits3402
+#SBATCH --account=cits3402
 #SBATCH --mem=0
 #SBATCH --job-name=assignment2
-#SBATCH --ntasks-per-node=8     # 8 MPI ranks per node
-#SBATCH --cpus-per-task=16     # 16 threads per rank
+#SBATCH --output=kayajob-%j.out
+#SBATCH --error=myjob-%j.err
+#SBATCH --ntasks=34
 #SBATCH --time=00:15:00
 module load gcc openmpi
 make
