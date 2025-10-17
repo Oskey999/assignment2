@@ -1,0 +1,2 @@
+cc                      -O3 -fopenmp -Wall     -o ass2 ass2.c -fopenmp             
+srun ./ass2 -p -r -H 40001 -W 40001 -kW 36 -kH 36 -sH 1 -sW 1

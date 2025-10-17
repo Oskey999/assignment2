@@ -3,7 +3,7 @@ TARGET = ass2
 SRC = ass2.c
 
 # ====== Compiler and Flags ======
-CC = cc                     # MPI compiler wrapper
+CC = mpicc                     # MPI compiler wrapper
 CFLAGS = -O3 -fopenmp -Wall    # Optimization, OpenMP, warnings
 LDFLAGS = -fopenmp             # Linker flags
 

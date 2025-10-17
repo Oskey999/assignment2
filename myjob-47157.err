@@ -1,0 +1,3086 @@
+ass2.c:16:10: fatal error: mpi.h: No such file or directory
+   16 | #include "mpi.h"
+      |          ^~~~~~~
+compilation terminated.
+make: *** [makefile:14: ass2] Error 1
+munmap_chunk(): invalid pointer
+[k007:2432392] *** Process received signal ***
+[k007:2432392] Signal: Aborted (6)
+[k007:2432392] Signal code:  (-6)
+[k007:2432392] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f5818c22bf0]
+[k007:2432392] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f5818c6fedc]
+[k007:2432392] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f5818c22b46]
+[k007:2432392] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f5818c0c833]
+[k007:2432392] [ 4] /lib64/libc.so.6(+0x29172)[0x7f5818c0d172]
+[k007:2432392] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f5818c79f87]
+[k007:2432392] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f5818c7a21c]
+[k007:2432392] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f5818c7e30a]
+[k007:2432392] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x56067655a026]
+[k007:2432392] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x56067655786e]
+[k007:2432392] [10] /lib64/libc.so.6(+0x295d0)[0x7f5818c0d5d0]
+[k007:2432392] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f5818c0d680]
+[k007:2432392] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x560676557bc5]
+[k007:2432392] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k008:1747174] *** Process received signal ***
+[k008:1747174] Signal: Aborted (6)
+[k008:1747174] Signal code:  (-6)
+[k008:1747174] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fe382e64bf0]
+[k008:1747174] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fe382eb1edc]
+[k008:1747174] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fe382e64b46]
+[k008:1747174] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fe382e4e833]
+[k008:1747174] [ 4] /lib64/libc.so.6(+0x29172)[0x7fe382e4f172]
+[k008:1747174] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fe382ebbf87]
+[k008:1747174] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fe382ebc21c]
+[k008:1747174] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fe382ec030a]
+[k008:1747174] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55a019197026]
+[k008:1747174] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55a01919486e]
+[k008:1747174] [10] /lib64/libc.so.6(+0x295d0)[0x7fe382e4f5d0]
+[k008:1747174] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fe382e4f680]
+[k008:1747174] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55a019194bc5]
+[k008:1747174] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781592] *** Process received signal ***
+[k005:2781592] Signal: Aborted (6)
+[k005:2781592] Signal code:  (-6)
+[k005:2781592] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f1d06e05bf0]
+[k005:2781592] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f1d06e52edc]
+[k005:2781592] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f1d06e05b46]
+[k005:2781592] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f1d06def833]
+[k005:2781592] [ 4] /lib64/libc.so.6(+0x29172)[0x7f1d06df0172]
+[k005:2781592] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f1d06e5cf87]
+[k005:2781592] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f1d06e5d21c]
+[k005:2781592] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f1d06e6130a]
+[k005:2781592] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55defcfc1026]
+[k005:2781592] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55defcfbe86e]
+[k005:2781592] [10] /lib64/libc.so.6(+0x295d0)[0x7f1d06df05d0]
+[k005:2781592] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f1d06df0680]
+[k005:2781592] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55defcfbebc5]
+[k005:2781592] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781573] *** Process received signal ***
+[k005:2781573] Signal: Aborted (6)
+[k005:2781573] Signal code:  (-6)
+[k005:2781573] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f837ea36bf0]
+[k005:2781573] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f837ea83edc]
+[k005:2781573] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f837ea36b46]
+[k005:2781573] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f837ea20833]
+[k005:2781573] [ 4] /lib64/libc.so.6(+0x29172)[0x7f837ea21172]
+[k005:2781573] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f837ea8df87]
+[k005:2781573] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f837ea8e21c]
+[k005:2781573] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f837ea9230a]
+[k005:2781573] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x556ee1992026]
+[k005:2781573] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x556ee198f86e]
+[k005:2781573] [10] /lib64/libc.so.6(+0x295d0)[0x7f837ea215d0]
+[k005:2781573] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f837ea21680]
+[k005:2781573] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x556ee198fbc5]
+[k005:2781573] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781584] *** Process received signal ***
+[k005:2781584] Signal: Aborted (6)
+[k005:2781584] Signal code:  (-6)
+[k005:2781584] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fec1e615bf0]
+[k005:2781584] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fec1e662edc]
+[k005:2781584] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fec1e615b46]
+[k005:2781584] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fec1e5ff833]
+[k005:2781584] [ 4] /lib64/libc.so.6(+0x29172)[0x7fec1e600172]
+[k005:2781584] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fec1e66cf87]
+[k005:2781584] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fec1e66d21c]
+[k005:2781584] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fec1e67130a]
+[k005:2781584] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55a28af18026]
+[k005:2781584] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55a28af1586e]
+[k005:2781584] [10] /lib64/libc.so.6(+0x295d0)[0x7fec1e6005d0]
+[k005:2781584] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fec1e600680]
+[k005:2781584] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55a28af15bc5]
+[k005:2781584] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781501] *** Process received signal ***
+[k005:2781501] Signal: Aborted (6)
+[k005:2781501] Signal code:  (-6)
+[k005:2781501] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fc045b7ebf0]
+[k005:2781501] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fc045bcbedc]
+[k005:2781501] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fc045b7eb46]
+[k005:2781501] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fc045b68833]
+[k005:2781501] [ 4] /lib64/libc.so.6(+0x29172)[0x7fc045b69172]
+[k005:2781501] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fc045bd5f87]
+[k005:2781501] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fc045bd621c]
+[k005:2781501] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fc045bda30a]
+[k005:2781501] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x555d94e7c026]
+[k005:2781501] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x555d94e7986e]
+[k005:2781501] [10] /lib64/libc.so.6(+0x295d0)[0x7fc045b695d0]
+[k005:2781501] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fc045b69680]
+[k005:2781501] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x555d94e79bc5]
+[k005:2781501] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781503] *** Process received signal ***
+[k005:2781503] Signal: Aborted (6)
+[k005:2781503] Signal code:  (-6)
+[k005:2781503] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f8b94301bf0]
+[k005:2781503] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f8b9434eedc]
+[k005:2781503] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f8b94301b46]
+[k005:2781503] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f8b942eb833]
+[k005:2781503] [ 4] /lib64/libc.so.6(+0x29172)[0x7f8b942ec172]
+[k005:2781503] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f8b94358f87]
+[k005:2781503] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f8b9435921c]
+[k005:2781503] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f8b9435d30a]
+[k005:2781503] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x564b10be6026]
+[k005:2781503] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x564b10be386e]
+[k005:2781503] [10] /lib64/libc.so.6(+0x295d0)[0x7f8b942ec5d0]
+[k005:2781503] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f8b942ec680]
+[k005:2781503] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x564b10be3bc5]
+[k005:2781503] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k006:2954912] *** Process received signal ***
+[k006:2954912] Signal: Aborted (6)
+[k006:2954912] Signal code:  (-6)
+[k006:2954912] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f1cc137abf0]
+[k006:2954912] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f1cc13c7edc]
+[k006:2954912] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f1cc137ab46]
+[k006:2954912] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f1cc1364833]
+[k006:2954912] [ 4] /lib64/libc.so.6(+0x29172)[0x7f1cc1365172]
+[k006:2954912] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f1cc13d1f87]
+[k006:2954912] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f1cc13d221c]
+[k006:2954912] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f1cc13d630a]
+[k006:2954912] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x558508fde026]
+[k006:2954912] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x558508fdb86e]
+[k006:2954912] [10] /lib64/libc.so.6(+0x295d0)[0x7f1cc13655d0]
+[k006:2954912] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f1cc1365680]
+[k006:2954912] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x558508fdbbc5]
+[k006:2954912] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781552] *** Process received signal ***
+[k005:2781552] Signal: Aborted (6)
+[k005:2781552] Signal code:  (-6)
+[k005:2781552] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f080ea4dbf0]
+[k005:2781552] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f080ea9aedc]
+[k005:2781552] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f080ea4db46]
+[k005:2781552] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f080ea37833]
+[k005:2781552] [ 4] /lib64/libc.so.6(+0x29172)[0x7f080ea38172]
+[k005:2781552] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f080eaa4f87]
+[k005:2781552] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f080eaa521c]
+[k005:2781552] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f080eaa930a]
+[k005:2781552] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x562a19dc6026]
+[k005:2781552] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x562a19dc386e]
+[k005:2781552] [10] /lib64/libc.so.6(+0x295d0)[0x7f080ea385d0]
+[k005:2781552] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f080ea38680]
+[k005:2781552] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x562a19dc3bc5]
+[k005:2781552] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781517] *** Process received signal ***
+[k005:2781517] Signal: Aborted (6)
+[k005:2781517] Signal code:  (-6)
+[k005:2781517] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fe1f95e1bf0]
+[k005:2781517] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fe1f962eedc]
+[k005:2781517] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fe1f95e1b46]
+[k005:2781517] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fe1f95cb833]
+[k005:2781517] [ 4] /lib64/libc.so.6(+0x29172)[0x7fe1f95cc172]
+[k005:2781517] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fe1f9638f87]
+[k005:2781517] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fe1f963921c]
+[k005:2781517] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fe1f963d30a]
+[k005:2781517] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55af21a1d026]
+[k005:2781517] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55af21a1a86e]
+[k005:2781517] [10] /lib64/libc.so.6(+0x295d0)[0x7fe1f95cc5d0]
+[k005:2781517] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fe1f95cc680]
+[k005:2781517] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55af21a1abc5]
+[k005:2781517] *** End of error message ***
+srun: error: k007: task 94: Aborted (core dumped)
+srun: error: k008: task 95: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781507] *** Process received signal ***
+[k005:2781507] Signal: Aborted (6)
+[k005:2781507] Signal code:  (-6)
+[k005:2781507] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f3cff394bf0]
+[k005:2781507] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f3cff3e1edc]
+[k005:2781507] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f3cff394b46]
+[k005:2781507] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f3cff37e833]
+[k005:2781507] [ 4] /lib64/libc.so.6(+0x29172)[0x7f3cff37f172]
+[k005:2781507] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f3cff3ebf87]
+[k005:2781507] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f3cff3ec21c]
+[k005:2781507] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f3cff3f030a]
+[k005:2781507] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55d0a3750026]
+[k005:2781507] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55d0a374d86e]
+[k005:2781507] [10] /lib64/libc.so.6(+0x295d0)[0x7f3cff37f5d0]
+[k005:2781507] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f3cff37f680]
+[k005:2781507] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55d0a374dbc5]
+[k005:2781507] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781585] *** Process received signal ***
+[k005:2781585] Signal: Aborted (6)
+[k005:2781585] Signal code:  (-6)
+[k005:2781585] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7feb447cebf0]
+[k005:2781585] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7feb4481bedc]
+[k005:2781585] [ 2] /lib64/libc.so.6(raise+0x16)[0x7feb447ceb46]
+[k005:2781585] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7feb447b8833]
+[k005:2781585] [ 4] /lib64/libc.so.6(+0x29172)[0x7feb447b9172]
+[k005:2781585] [ 5] /lib64/libc.so.6(+0x95f87)[0x7feb44825f87]
+[k005:2781585] [ 6] /lib64/libc.so.6(+0x9621c)[0x7feb4482621c]
+[k005:2781585] [ 7] /lib64/libc.so.6(free+0x9a)[0x7feb4482a30a]
+[k005:2781585] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x562bcf4b5026]
+[k005:2781585] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x562bcf4b286e]
+[k005:2781585] [10] /lib64/libc.so.6(+0x295d0)[0x7feb447b95d0]
+[k005:2781585] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7feb447b9680]
+[k005:2781585] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x562bcf4b2bc5]
+[k005:2781585] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781577] *** Process received signal ***
+[k005:2781577] Signal: Aborted (6)
+[k005:2781577] Signal code:  (-6)
+[k005:2781577] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f65662efbf0]
+[k005:2781577] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f656633cedc]
+[k005:2781577] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f65662efb46]
+[k005:2781577] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f65662d9833]
+[k005:2781577] [ 4] /lib64/libc.so.6(+0x29172)[0x7f65662da172]
+[k005:2781577] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f6566346f87]
+[k005:2781577] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f656634721c]
+[k005:2781577] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f656634b30a]
+[k005:2781577] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55bf001da026]
+[k005:2781577] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55bf001d786e]
+[k005:2781577] [10] /lib64/libc.so.6(+0x295d0)[0x7f65662da5d0]
+[k005:2781577] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f65662da680]
+[k005:2781577] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55bf001d7bc5]
+[k005:2781577] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781511] *** Process received signal ***
+[k005:2781511] Signal: Aborted (6)
+[k005:2781511] Signal code:  (-6)
+[k005:2781511] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f476a3a1bf0]
+[k005:2781511] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f476a3eeedc]
+[k005:2781511] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f476a3a1b46]
+[k005:2781511] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f476a38b833]
+[k005:2781511] [ 4] /lib64/libc.so.6(+0x29172)[0x7f476a38c172]
+[k005:2781511] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f476a3f8f87]
+[k005:2781511] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f476a3f921c]
+[k005:2781511] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f476a3fd30a]
+[k005:2781511] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x564ae740e026]
+[k005:2781511] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x564ae740b86e]
+[k005:2781511] [10] /lib64/libc.so.6(+0x295d0)[0x7f476a38c5d0]
+[k005:2781511] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f476a38c680]
+[k005:2781511] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x564ae740bbc5]
+[k005:2781511] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781549] *** Process received signal ***
+[k005:2781549] Signal: Aborted (6)
+[k005:2781549] Signal code:  (-6)
+[k005:2781549] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f3333eeabf0]
+[k005:2781549] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f3333f37edc]
+[k005:2781549] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f3333eeab46]
+[k005:2781549] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f3333ed4833]
+[k005:2781549] [ 4] /lib64/libc.so.6(+0x29172)[0x7f3333ed5172]
+[k005:2781549] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f3333f41f87]
+[k005:2781549] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f3333f4221c]
+[k005:2781549] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f3333f4630a]
+[k005:2781549] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x560d9e538026]
+[k005:2781549] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x560d9e53586e]
+[k005:2781549] [10] /lib64/libc.so.6(+0x295d0)[0x7f3333ed55d0]
+[k005:2781549] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f3333ed5680]
+[k005:2781549] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x560d9e535bc5]
+[k005:2781549] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781586] *** Process received signal ***
+[k005:2781586] Signal: Aborted (6)
+[k005:2781586] Signal code:  (-6)
+[k005:2781586] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f8cd8f26bf0]
+[k005:2781586] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f8cd8f73edc]
+[k005:2781586] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f8cd8f26b46]
+[k005:2781586] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f8cd8f10833]
+[k005:2781586] [ 4] /lib64/libc.so.6(+0x29172)[0x7f8cd8f11172]
+[k005:2781586] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f8cd8f7df87]
+[k005:2781586] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f8cd8f7e21c]
+[k005:2781586] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f8cd8f8230a]
+[k005:2781586] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x555eac316026]
+[k005:2781586] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x555eac31386e]
+[k005:2781586] [10] /lib64/libc.so.6(+0x295d0)[0x7f8cd8f115d0]
+[k005:2781586] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f8cd8f11680]
+[k005:2781586] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x555eac313bc5]
+[k005:2781586] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781525] *** Process received signal ***
+[k005:2781525] Signal: Aborted (6)
+[k005:2781525] Signal code:  (-6)
+[k005:2781525] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f64e943ebf0]
+[k005:2781525] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f64e948bedc]
+[k005:2781525] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f64e943eb46]
+[k005:2781525] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f64e9428833]
+[k005:2781525] [ 4] /lib64/libc.so.6(+0x29172)[0x7f64e9429172]
+[k005:2781525] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f64e9495f87]
+[k005:2781525] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f64e949621c]
+[k005:2781525] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f64e949a30a]
+[k005:2781525] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x56011913e026]
+[k005:2781525] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x56011913b86e]
+[k005:2781525] [10] /lib64/libc.so.6(+0x295d0)[0x7f64e94295d0]
+[k005:2781525] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f64e9429680]
+[k005:2781525] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x56011913bbc5]
+[k005:2781525] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781531] *** Process received signal ***
+[k005:2781531] Signal: Aborted (6)
+[k005:2781531] Signal code:  (-6)
+[k005:2781531] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fb9d7871bf0]
+[k005:2781531] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fb9d78beedc]
+[k005:2781531] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fb9d7871b46]
+[k005:2781531] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fb9d785b833]
+[k005:2781531] [ 4] /lib64/libc.so.6(+0x29172)[0x7fb9d785c172]
+[k005:2781531] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fb9d78c8f87]
+[k005:2781531] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fb9d78c921c]
+[k005:2781531] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fb9d78cd30a]
+[k005:2781531] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x557e962eb026]
+[k005:2781531] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x557e962e886e]
+[k005:2781531] [10] /lib64/libc.so.6(+0x295d0)[0x7fb9d785c5d0]
+[k005:2781531] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fb9d785c680]
+[k005:2781531] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x557e962e8bc5]
+[k005:2781531] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781588] *** Process received signal ***
+[k005:2781588] Signal: Aborted (6)
+[k005:2781588] Signal code:  (-6)
+[k005:2781588] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f6b28bfabf0]
+[k005:2781588] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f6b28c47edc]
+[k005:2781588] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f6b28bfab46]
+[k005:2781588] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f6b28be4833]
+[k005:2781588] [ 4] /lib64/libc.so.6(+0x29172)[0x7f6b28be5172]
+[k005:2781588] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f6b28c51f87]
+[k005:2781588] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f6b28c5221c]
+[k005:2781588] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f6b28c5630a]
+[k005:2781588] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5638d9e24026]
+[k005:2781588] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5638d9e2186e]
+[k005:2781588] [10] /lib64/libc.so.6(+0x295d0)[0x7f6b28be55d0]
+[k005:2781588] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f6b28be5680]
+[k005:2781588] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5638d9e21bc5]
+[k005:2781588] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781581] *** Process received signal ***
+[k005:2781581] Signal: Aborted (6)
+[k005:2781581] Signal code:  (-6)
+[k005:2781581] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fe4284f5bf0]
+[k005:2781581] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fe428542edc]
+[k005:2781581] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fe4284f5b46]
+[k005:2781581] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fe4284df833]
+[k005:2781581] [ 4] /lib64/libc.so.6(+0x29172)[0x7fe4284e0172]
+[k005:2781581] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fe42854cf87]
+[k005:2781581] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fe42854d21c]
+[k005:2781581] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fe42855130a]
+[k005:2781581] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55dff954f026]
+[k005:2781581] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55dff954c86e]
+[k005:2781581] [10] /lib64/libc.so.6(+0x295d0)[0x7fe4284e05d0]
+[k005:2781581] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fe4284e0680]
+[k005:2781581] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55dff954cbc5]
+[k005:2781581] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781521] *** Process received signal ***
+[k005:2781521] Signal: Aborted (6)
+[k005:2781521] Signal code:  (-6)
+[k005:2781521] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f55f3b6ebf0]
+[k005:2781521] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f55f3bbbedc]
+[k005:2781521] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f55f3b6eb46]
+[k005:2781521] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f55f3b58833]
+[k005:2781521] [ 4] /lib64/libc.so.6(+0x29172)[0x7f55f3b59172]
+[k005:2781521] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f55f3bc5f87]
+[k005:2781521] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f55f3bc621c]
+[k005:2781521] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f55f3bca30a]
+[k005:2781521] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x558f8e573026]
+[k005:2781521] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x558f8e57086e]
+[k005:2781521] [10] /lib64/libc.so.6(+0x295d0)[0x7f55f3b595d0]
+[k005:2781521] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f55f3b59680]
+[k005:2781521] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x558f8e570bc5]
+[k005:2781521] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781583] *** Process received signal ***
+[k005:2781583] Signal: Aborted (6)
+[k005:2781583] Signal code:  (-6)
+[k005:2781583] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fcd760b7bf0]
+[k005:2781583] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fcd76104edc]
+[k005:2781583] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fcd760b7b46]
+[k005:2781583] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fcd760a1833]
+[k005:2781583] [ 4] /lib64/libc.so.6(+0x29172)[0x7fcd760a2172]
+[k005:2781583] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fcd7610ef87]
+[k005:2781583] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fcd7610f21c]
+[k005:2781583] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fcd7611330a]
+[k005:2781583] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55c5c260f026]
+[k005:2781583] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55c5c260c86e]
+[k005:2781583] [10] /lib64/libc.so.6(+0x295d0)[0x7fcd760a25d0]
+[k005:2781583] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fcd760a2680]
+[k005:2781583] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55c5c260cbc5]
+[k005:2781583] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781515] *** Process received signal ***
+[k005:2781515] Signal: Aborted (6)
+[k005:2781515] Signal code:  (-6)
+[k005:2781515] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f1af19a3bf0]
+[k005:2781515] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f1af19f0edc]
+[k005:2781515] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f1af19a3b46]
+[k005:2781515] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f1af198d833]
+[k005:2781515] [ 4] /lib64/libc.so.6(+0x29172)[0x7f1af198e172]
+[k005:2781515] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f1af19faf87]
+[k005:2781515] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f1af19fb21c]
+[k005:2781515] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f1af19ff30a]
+[k005:2781515] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x561c10e3c026]
+[k005:2781515] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x561c10e3986e]
+[k005:2781515] [10] /lib64/libc.so.6(+0x295d0)[0x7f1af198e5d0]
+[k005:2781515] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f1af198e680]
+[k005:2781515] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x561c10e39bc5]
+[k005:2781515] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781504] *** Process received signal ***
+[k005:2781504] Signal: Aborted (6)
+[k005:2781504] Signal code:  (-6)
+[k005:2781504] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f3c9ed82bf0]
+[k005:2781504] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f3c9edcfedc]
+[k005:2781504] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f3c9ed82b46]
+[k005:2781504] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f3c9ed6c833]
+[k005:2781504] [ 4] /lib64/libc.so.6(+0x29172)[0x7f3c9ed6d172]
+[k005:2781504] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f3c9edd9f87]
+[k005:2781504] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f3c9edda21c]
+[k005:2781504] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f3c9edde30a]
+[k005:2781504] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5567e55ff026]
+[k005:2781504] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5567e55fc86e]
+[k005:2781504] [10] /lib64/libc.so.6(+0x295d0)[0x7f3c9ed6d5d0]
+[k005:2781504] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f3c9ed6d680]
+[k005:2781504] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5567e55fcbc5]
+[k005:2781504] *** End of error message ***
+srun: error: k005: task 92: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781553] *** Process received signal ***
+[k005:2781553] Signal: Aborted (6)
+[k005:2781553] Signal code:  (-6)
+[k005:2781553] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fca29fa7bf0]
+[k005:2781553] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fca29ff4edc]
+[k005:2781553] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fca29fa7b46]
+[k005:2781553] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fca29f91833]
+[k005:2781553] [ 4] /lib64/libc.so.6(+0x29172)[0x7fca29f92172]
+[k005:2781553] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fca29ffef87]
+[k005:2781553] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fca29fff21c]
+[k005:2781553] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fca2a00330a]
+[k005:2781553] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5642ceb94026]
+[k005:2781553] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5642ceb9186e]
+[k005:2781553] [10] /lib64/libc.so.6(+0x295d0)[0x7fca29f925d0]
+[k005:2781553] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fca29f92680]
+[k005:2781553] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5642ceb91bc5]
+[k005:2781553] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781513] *** Process received signal ***
+[k005:2781513] Signal: Aborted (6)
+[k005:2781513] Signal code:  (-6)
+[k005:2781513] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f5c08e68bf0]
+[k005:2781513] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f5c08eb5edc]
+[k005:2781513] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f5c08e68b46]
+[k005:2781513] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f5c08e52833]
+[k005:2781513] [ 4] /lib64/libc.so.6(+0x29172)[0x7f5c08e53172]
+[k005:2781513] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f5c08ebff87]
+[k005:2781513] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f5c08ec021c]
+[k005:2781513] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f5c08ec430a]
+[k005:2781513] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5557c7d40026]
+[k005:2781513] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5557c7d3d86e]
+[k005:2781513] [10] /lib64/libc.so.6(+0x295d0)[0x7f5c08e535d0]
+[k005:2781513] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f5c08e53680]
+[k005:2781513] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5557c7d3dbc5]
+[k005:2781513] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781567] *** Process received signal ***
+[k005:2781567] Signal: Aborted (6)
+[k005:2781567] Signal code:  (-6)
+[k005:2781567] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fe22e77bbf0]
+[k005:2781567] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fe22e7c8edc]
+[k005:2781567] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fe22e77bb46]
+[k005:2781567] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fe22e765833]
+[k005:2781567] [ 4] /lib64/libc.so.6(+0x29172)[0x7fe22e766172]
+[k005:2781567] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fe22e7d2f87]
+[k005:2781567] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fe22e7d321c]
+[k005:2781567] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fe22e7d730a]
+[k005:2781567] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5561f47fd026]
+[k005:2781567] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5561f47fa86e]
+[k005:2781567] [10] /lib64/libc.so.6(+0x295d0)[0x7fe22e7665d0]
+[k005:2781567] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fe22e766680]
+[k005:2781567] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5561f47fabc5]
+[k005:2781567] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781558] *** Process received signal ***
+[k005:2781558] Signal: Aborted (6)
+[k005:2781558] Signal code:  (-6)
+[k005:2781558] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fcb69d78bf0]
+[k005:2781558] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fcb69dc5edc]
+[k005:2781558] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fcb69d78b46]
+[k005:2781558] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fcb69d62833]
+[k005:2781558] [ 4] /lib64/libc.so.6(+0x29172)[0x7fcb69d63172]
+[k005:2781558] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fcb69dcff87]
+[k005:2781558] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fcb69dd021c]
+[k005:2781558] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fcb69dd430a]
+[k005:2781558] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55f48464b026]
+[k005:2781558] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55f48464886e]
+[k005:2781558] [10] /lib64/libc.so.6(+0x295d0)[0x7fcb69d635d0]
+[k005:2781558] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fcb69d63680]
+[k005:2781558] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55f484648bc5]
+[k005:2781558] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781535] *** Process received signal ***
+[k005:2781535] Signal: Aborted (6)
+[k005:2781535] Signal code:  (-6)
+[k005:2781535] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f5a6b04dbf0]
+[k005:2781535] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f5a6b09aedc]
+[k005:2781535] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f5a6b04db46]
+[k005:2781535] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f5a6b037833]
+[k005:2781535] [ 4] /lib64/libc.so.6(+0x29172)[0x7f5a6b038172]
+[k005:2781535] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f5a6b0a4f87]
+[k005:2781535] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f5a6b0a521c]
+[k005:2781535] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f5a6b0a930a]
+[k005:2781535] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5560a521c026]
+[k005:2781535] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5560a521986e]
+[k005:2781535] [10] /lib64/libc.so.6(+0x295d0)[0x7f5a6b0385d0]
+[k005:2781535] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f5a6b038680]
+[k005:2781535] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5560a5219bc5]
+[k005:2781535] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781555] *** Process received signal ***
+[k005:2781555] Signal: Aborted (6)
+[k005:2781555] Signal code:  (-6)
+[k005:2781555] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f77fc55fbf0]
+[k005:2781555] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f77fc5acedc]
+[k005:2781555] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f77fc55fb46]
+[k005:2781555] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f77fc549833]
+[k005:2781555] [ 4] /lib64/libc.so.6(+0x29172)[0x7f77fc54a172]
+[k005:2781555] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f77fc5b6f87]
+[k005:2781555] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f77fc5b721c]
+[k005:2781555] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f77fc5bb30a]
+[k005:2781555] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55f49fcad026]
+[k005:2781555] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55f49fcaa86e]
+[k005:2781555] [10] /lib64/libc.so.6(+0x295d0)[0x7f77fc54a5d0]
+[k005:2781555] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f77fc54a680]
+[k005:2781555] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55f49fcaabc5]
+[k005:2781555] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781587] *** Process received signal ***
+[k005:2781587] Signal: Aborted (6)
+[k005:2781587] Signal code:  (-6)
+[k005:2781587] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f76dfc4abf0]
+[k005:2781587] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f76dfc97edc]
+[k005:2781587] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f76dfc4ab46]
+[k005:2781587] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f76dfc34833]
+[k005:2781587] [ 4] /lib64/libc.so.6(+0x29172)[0x7f76dfc35172]
+[k005:2781587] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f76dfca1f87]
+[k005:2781587] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f76dfca221c]
+[k005:2781587] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f76dfca630a]
+[k005:2781587] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x559c59ead026]
+[k005:2781587] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x559c59eaa86e]
+[k005:2781587] [10] /lib64/libc.so.6(+0x295d0)[0x7f76dfc355d0]
+[k005:2781587] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f76dfc35680]
+[k005:2781587] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x559c59eaabc5]
+[k005:2781587] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781578] *** Process received signal ***
+[k005:2781578] Signal: Aborted (6)
+[k005:2781578] Signal code:  (-6)
+[k005:2781578] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fd42dac1bf0]
+[k005:2781578] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fd42db0eedc]
+[k005:2781578] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fd42dac1b46]
+[k005:2781578] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fd42daab833]
+[k005:2781578] [ 4] /lib64/libc.so.6(+0x29172)[0x7fd42daac172]
+[k005:2781578] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fd42db18f87]
+[k005:2781578] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fd42db1921c]
+[k005:2781578] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fd42db1d30a]
+[k005:2781578] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5654339b1026]
+[k005:2781578] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5654339ae86e]
+[k005:2781578] [10] /lib64/libc.so.6(+0x295d0)[0x7fd42daac5d0]
+[k005:2781578] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fd42daac680]
+[k005:2781578] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5654339aebc5]
+[k005:2781578] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781569] *** Process received signal ***
+[k005:2781569] Signal: Aborted (6)
+[k005:2781569] Signal code:  (-6)
+[k005:2781569] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fe69a03fbf0]
+[k005:2781569] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fe69a08cedc]
+[k005:2781569] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fe69a03fb46]
+[k005:2781569] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fe69a029833]
+[k005:2781569] [ 4] /lib64/libc.so.6(+0x29172)[0x7fe69a02a172]
+[k005:2781569] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fe69a096f87]
+[k005:2781569] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fe69a09721c]
+[k005:2781569] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fe69a09b30a]
+[k005:2781569] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x560c07ccc026]
+[k005:2781569] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x560c07cc986e]
+[k005:2781569] [10] /lib64/libc.so.6(+0x295d0)[0x7fe69a02a5d0]
+[k005:2781569] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fe69a02a680]
+[k005:2781569] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x560c07cc9bc5]
+[k005:2781569] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781522] *** Process received signal ***
+[k005:2781522] Signal: Aborted (6)
+[k005:2781522] Signal code:  (-6)
+[k005:2781522] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fea6ad0dbf0]
+[k005:2781522] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fea6ad5aedc]
+[k005:2781522] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fea6ad0db46]
+[k005:2781522] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fea6acf7833]
+[k005:2781522] [ 4] /lib64/libc.so.6(+0x29172)[0x7fea6acf8172]
+[k005:2781522] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fea6ad64f87]
+[k005:2781522] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fea6ad6521c]
+[k005:2781522] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fea6ad6930a]
+[k005:2781522] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5582712f7026]
+[k005:2781522] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5582712f486e]
+[k005:2781522] [10] /lib64/libc.so.6(+0x295d0)[0x7fea6acf85d0]
+[k005:2781522] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fea6acf8680]
+[k005:2781522] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5582712f4bc5]
+[k005:2781522] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781574] *** Process received signal ***
+[k005:2781574] Signal: Aborted (6)
+[k005:2781574] Signal code:  (-6)
+[k005:2781574] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7ff4f4679bf0]
+[k005:2781574] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7ff4f46c6edc]
+[k005:2781574] [ 2] /lib64/libc.so.6(raise+0x16)[0x7ff4f4679b46]
+[k005:2781574] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7ff4f4663833]
+[k005:2781574] [ 4] /lib64/libc.so.6(+0x29172)[0x7ff4f4664172]
+[k005:2781574] [ 5] /lib64/libc.so.6(+0x95f87)[0x7ff4f46d0f87]
+[k005:2781574] [ 6] /lib64/libc.so.6(+0x9621c)[0x7ff4f46d121c]
+[k005:2781574] [ 7] /lib64/libc.so.6(free+0x9a)[0x7ff4f46d530a]
+[k005:2781574] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x563b953ac026]
+[k005:2781574] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x563b953a986e]
+[k005:2781574] [10] /lib64/libc.so.6(+0x295d0)[0x7ff4f46645d0]
+[k005:2781574] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7ff4f4664680]
+[k005:2781574] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x563b953a9bc5]
+[k005:2781574] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781528] *** Process received signal ***
+[k005:2781528] Signal: Aborted (6)
+[k005:2781528] Signal code:  (-6)
+[k005:2781528] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f3840787bf0]
+[k005:2781528] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f38407d4edc]
+[k005:2781528] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f3840787b46]
+[k005:2781528] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f3840771833]
+[k005:2781528] [ 4] /lib64/libc.so.6(+0x29172)[0x7f3840772172]
+[k005:2781528] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f38407def87]
+[k005:2781528] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f38407df21c]
+[k005:2781528] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f38407e330a]
+[k005:2781528] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x560d51c0f026]
+[k005:2781528] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x560d51c0c86e]
+[k005:2781528] [10] /lib64/libc.so.6(+0x295d0)[0x7f38407725d0]
+[k005:2781528] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f3840772680]
+[k005:2781528] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x560d51c0cbc5]
+[k005:2781528] *** End of error message ***
+srun: error: k005: tasks 4,58: Aborted
+srun: error: k005: task 73: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781523] *** Process received signal ***
+[k005:2781523] Signal: Aborted (6)
+[k005:2781523] Signal code:  (-6)
+[k005:2781523] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f53563ddbf0]
+[k005:2781523] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f535642aedc]
+[k005:2781523] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f53563ddb46]
+[k005:2781523] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f53563c7833]
+[k005:2781523] [ 4] /lib64/libc.so.6(+0x29172)[0x7f53563c8172]
+[k005:2781523] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f5356434f87]
+[k005:2781523] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f535643521c]
+[k005:2781523] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f535643930a]
+[k005:2781523] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55d98b4dd026]
+[k005:2781523] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55d98b4da86e]
+[k005:2781523] [10] /lib64/libc.so.6(+0x295d0)[0x7f53563c85d0]
+[k005:2781523] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f53563c8680]
+[k005:2781523] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55d98b4dabc5]
+[k005:2781523] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781582] *** Process received signal ***
+[k005:2781582] Signal: Aborted (6)
+[k005:2781582] Signal code:  (-6)
+[k005:2781582] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7ff1c1a5cbf0]
+[k005:2781582] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7ff1c1aa9edc]
+[k005:2781582] [ 2] /lib64/libc.so.6(raise+0x16)[0x7ff1c1a5cb46]
+[k005:2781582] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7ff1c1a46833]
+[k005:2781582] [ 4] /lib64/libc.so.6(+0x29172)[0x7ff1c1a47172]
+[k005:2781582] [ 5] /lib64/libc.so.6(+0x95f87)[0x7ff1c1ab3f87]
+[k005:2781582] [ 6] /lib64/libc.so.6(+0x9621c)[0x7ff1c1ab421c]
+[k005:2781582] [ 7] /lib64/libc.so.6(free+0x9a)[0x7ff1c1ab830a]
+[k005:2781582] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55f6b7951026]
+[k005:2781582] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55f6b794e86e]
+[k005:2781582] [10] /lib64/libc.so.6(+0x295d0)[0x7ff1c1a475d0]
+[k005:2781582] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7ff1c1a47680]
+[k005:2781582] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55f6b794ebc5]
+[k005:2781582] *** End of error message ***
+srun: error: k005: tasks 15,83: Aborted
+srun: error: k005: task 84: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781546] *** Process received signal ***
+[k005:2781546] Signal: Aborted (6)
+[k005:2781546] Signal code:  (-6)
+[k005:2781546] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fb585367bf0]
+[k005:2781546] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fb5853b4edc]
+[k005:2781546] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fb585367b46]
+[k005:2781546] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fb585351833]
+[k005:2781546] [ 4] /lib64/libc.so.6(+0x29172)[0x7fb585352172]
+[k005:2781546] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fb5853bef87]
+[k005:2781546] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fb5853bf21c]
+[k005:2781546] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fb5853c330a]
+[k005:2781546] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55df8535e026]
+[k005:2781546] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55df8535b86e]
+[k005:2781546] [10] /lib64/libc.so.6(+0x295d0)[0x7fb5853525d0]
+[k005:2781546] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fb585352680]
+[k005:2781546] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55df8535bbc5]
+[k005:2781546] *** End of error message ***
+srun: error: k005: tasks 13,22,35,53,55,67,69,87: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781500] *** Process received signal ***
+[k005:2781500] Signal: Aborted (6)
+[k005:2781500] Signal code:  (-6)
+[k005:2781500] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f9217a3ebf0]
+[k005:2781500] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f9217a8bedc]
+[k005:2781500] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f9217a3eb46]
+[k005:2781500] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f9217a28833]
+[k005:2781500] [ 4] /lib64/libc.so.6(+0x29172)[0x7f9217a29172]
+[k005:2781500] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f9217a95f87]
+[k005:2781500] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f9217a9621c]
+[k005:2781500] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f9217a9a30a]
+[k005:2781500] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55ddbc14c026]
+[k005:2781500] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55ddbc14986e]
+[k005:2781500] [10] /lib64/libc.so.6(+0x295d0)[0x7f9217a295d0]
+[k005:2781500] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f9217a29680]
+[k005:2781500] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55ddbc149bc5]
+[k005:2781500] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781518] *** Process received signal ***
+[k005:2781518] Signal: Aborted (6)
+[k005:2781518] Signal code:  (-6)
+[k005:2781518] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f31e2ac3bf0]
+[k005:2781518] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f31e2b10edc]
+[k005:2781518] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f31e2ac3b46]
+[k005:2781518] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f31e2aad833]
+[k005:2781518] [ 4] /lib64/libc.so.6(+0x29172)[0x7f31e2aae172]
+[k005:2781518] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f31e2b1af87]
+[k005:2781518] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f31e2b1b21c]
+[k005:2781518] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f31e2b1f30a]
+[k005:2781518] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55e1018b1026]
+[k005:2781518] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55e1018ae86e]
+[k005:2781518] [10] /lib64/libc.so.6(+0x295d0)[0x7f31e2aae5d0]
+[k005:2781518] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f31e2aae680]
+[k005:2781518] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55e1018aebc5]
+[k005:2781518] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781512] *** Process received signal ***
+[k005:2781512] Signal: Aborted (6)
+[k005:2781512] Signal code:  (-6)
+[k005:2781512] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f1100a8cbf0]
+[k005:2781512] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f1100ad9edc]
+[k005:2781512] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f1100a8cb46]
+[k005:2781512] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f1100a76833]
+[k005:2781512] [ 4] /lib64/libc.so.6(+0x29172)[0x7f1100a77172]
+[k005:2781512] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f1100ae3f87]
+[k005:2781512] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f1100ae421c]
+[k005:2781512] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f1100ae830a]
+[k005:2781512] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55d6e9ce1026]
+[k005:2781512] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55d6e9cde86e]
+[k005:2781512] [10] /lib64/libc.so.6(+0x295d0)[0x7f1100a775d0]
+[k005:2781512] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f1100a77680]
+[k005:2781512] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55d6e9cdebc5]
+[k005:2781512] *** End of error message ***
+srun: error: k005: task 1: Aborted (core dumped)
+srun: error: k005: tasks 23,28,82: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781545] *** Process received signal ***
+[k005:2781545] Signal: Aborted (6)
+[k005:2781545] Signal code:  (-6)
+[k005:2781545] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f2e57f57bf0]
+[k005:2781545] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f2e57fa4edc]
+[k005:2781545] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f2e57f57b46]
+[k005:2781545] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f2e57f41833]
+[k005:2781545] [ 4] /lib64/libc.so.6(+0x29172)[0x7f2e57f42172]
+[k005:2781545] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f2e57faef87]
+[k005:2781545] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f2e57faf21c]
+[k005:2781545] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f2e57fb330a]
+[k005:2781545] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x561d71f69026]
+[k005:2781545] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x561d71f6686e]
+[k005:2781545] [10] /lib64/libc.so.6(+0x295d0)[0x7f2e57f425d0]
+[k005:2781545] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f2e57f42680]
+[k005:2781545] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x561d71f66bc5]
+[k005:2781545] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781589] *** Process received signal ***
+[k005:2781589] Signal: Aborted (6)
+[k005:2781589] Signal code:  (-6)
+[k005:2781589] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f3081735bf0]
+[k005:2781589] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f3081782edc]
+[k005:2781589] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f3081735b46]
+[k005:2781589] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f308171f833]
+[k005:2781589] [ 4] /lib64/libc.so.6(+0x29172)[0x7f3081720172]
+[k005:2781589] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f308178cf87]
+[k005:2781589] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f308178d21c]
+[k005:2781589] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f308179130a]
+[k005:2781589] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55c387c4a026]
+[k005:2781589] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55c387c4786e]
+[k005:2781589] [10] /lib64/libc.so.6(+0x295d0)[0x7f30817205d0]
+[k005:2781589] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f3081720680]
+[k005:2781589] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55c387c47bc5]
+[k005:2781589] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781547] *** Process received signal ***
+[k005:2781547] Signal: Aborted (6)
+[k005:2781547] Signal code:  (-6)
+[k005:2781547] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f43d52fdbf0]
+[k005:2781547] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f43d534aedc]
+[k005:2781547] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f43d52fdb46]
+[k005:2781547] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f43d52e7833]
+[k005:2781547] [ 4] /lib64/libc.so.6(+0x29172)[0x7f43d52e8172]
+[k005:2781547] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f43d5354f87]
+[k005:2781547] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f43d535521c]
+[k005:2781547] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f43d535930a]
+[k005:2781547] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55f676c82026]
+[k005:2781547] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55f676c7f86e]
+[k005:2781547] [10] /lib64/libc.so.6(+0x295d0)[0x7f43d52e85d0]
+[k005:2781547] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f43d52e8680]
+[k005:2781547] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55f676c7fbc5]
+[k005:2781547] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781557] *** Process received signal ***
+[k005:2781557] Signal: Aborted (6)
+[k005:2781557] Signal code:  (-6)
+[k005:2781557] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fbdbb288bf0]
+[k005:2781557] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fbdbb2d5edc]
+[k005:2781557] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fbdbb288b46]
+[k005:2781557] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fbdbb272833]
+[k005:2781557] [ 4] /lib64/libc.so.6(+0x29172)[0x7fbdbb273172]
+[k005:2781557] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fbdbb2dff87]
+[k005:2781557] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fbdbb2e021c]
+[k005:2781557] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fbdbb2e430a]
+[k005:2781557] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55fe4d7e9026]
+[k005:2781557] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55fe4d7e686e]
+[k005:2781557] [10] /lib64/libc.so.6(+0x295d0)[0x7fbdbb2735d0]
+[k005:2781557] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fbdbb273680]
+[k005:2781557] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55fe4d7e6bc5]
+[k005:2781557] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781591] *** Process received signal ***
+[k005:2781591] Signal: Aborted (6)
+[k005:2781591] Signal code:  (-6)
+[k005:2781591] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fc53888fbf0]
+[k005:2781591] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fc5388dcedc]
+[k005:2781591] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fc53888fb46]
+[k005:2781591] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fc538879833]
+[k005:2781591] [ 4] /lib64/libc.so.6(+0x29172)[0x7fc53887a172]
+[k005:2781591] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fc5388e6f87]
+[k005:2781591] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fc5388e721c]
+[k005:2781591] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fc5388eb30a]
+[k005:2781591] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55bfa7d84026]
+[k005:2781591] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55bfa7d8186e]
+[k005:2781591] [10] /lib64/libc.so.6(+0x295d0)[0x7fc53887a5d0]
+[k005:2781591] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fc53887a680]
+[k005:2781591] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55bfa7d81bc5]
+[k005:2781591] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781565] *** Process received signal ***
+[k005:2781565] Signal: Aborted (6)
+[k005:2781565] Signal code:  (-6)
+[k005:2781565] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fae71109bf0]
+[k005:2781565] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fae71156edc]
+[k005:2781565] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fae71109b46]
+[k005:2781565] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fae710f3833]
+[k005:2781565] [ 4] /lib64/libc.so.6(+0x29172)[0x7fae710f4172]
+[k005:2781565] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fae71160f87]
+[k005:2781565] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fae7116121c]
+[k005:2781565] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fae7116530a]
+[k005:2781565] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55a62722f026]
+[k005:2781565] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55a62722c86e]
+[k005:2781565] [10] /lib64/libc.so.6(+0x295d0)[0x7fae710f45d0]
+[k005:2781565] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fae710f4680]
+[k005:2781565] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55a62722cbc5]
+[k005:2781565] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781556] *** Process received signal ***
+[k005:2781556] Signal: Aborted (6)
+[k005:2781556] Signal code:  (-6)
+[k005:2781556] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f6ec484abf0]
+[k005:2781556] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f6ec4897edc]
+[k005:2781556] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f6ec484ab46]
+[k005:2781556] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f6ec4834833]
+[k005:2781556] [ 4] /lib64/libc.so.6(+0x29172)[0x7f6ec4835172]
+[k005:2781556] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f6ec48a1f87]
+[k005:2781556] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f6ec48a221c]
+[k005:2781556] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f6ec48a630a]
+[k005:2781556] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x56225c0b3026]
+[k005:2781556] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x56225c0b086e]
+[k005:2781556] [10] /lib64/libc.so.6(+0x295d0)[0x7f6ec48355d0]
+[k005:2781556] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f6ec4835680]
+[k005:2781556] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x56225c0b0bc5]
+[k005:2781556] *** End of error message ***
+srun: error: k005: tasks 0,46: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781533] *** Process received signal ***
+[k005:2781533] Signal: Aborted (6)
+[k005:2781533] Signal code:  (-6)
+[k005:2781533] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f419b296bf0]
+[k005:2781533] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f419b2e3edc]
+[k005:2781533] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f419b296b46]
+[k005:2781533] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f419b280833]
+[k005:2781533] [ 4] /lib64/libc.so.6(+0x29172)[0x7f419b281172]
+[k005:2781533] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f419b2edf87]
+[k005:2781533] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f419b2ee21c]
+[k005:2781533] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f419b2f230a]
+[k005:2781533] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x556c09f41026]
+[k005:2781533] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x556c09f3e86e]
+[k005:2781533] [10] /lib64/libc.so.6(+0x295d0)[0x7f419b2815d0]
+[k005:2781533] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f419b281680]
+[k005:2781533] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x556c09f3ebc5]
+[k005:2781533] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781561] *** Process received signal ***
+[k005:2781561] Signal: Aborted (6)
+[k005:2781561] Signal code:  (-6)
+[k005:2781561] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f8e97539bf0]
+[k005:2781561] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f8e97586edc]
+[k005:2781561] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f8e97539b46]
+[k005:2781561] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f8e97523833]
+[k005:2781561] [ 4] /lib64/libc.so.6(+0x29172)[0x7f8e97524172]
+[k005:2781561] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f8e97590f87]
+[k005:2781561] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f8e9759121c]
+[k005:2781561] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f8e9759530a]
+[k005:2781561] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55b4a021a026]
+[k005:2781561] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55b4a021786e]
+[k005:2781561] [10] /lib64/libc.so.6(+0x295d0)[0x7f8e975245d0]
+[k005:2781561] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f8e97524680]
+[k005:2781561] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55b4a0217bc5]
+[k005:2781561] *** End of error message ***
+srun: error: k005: tasks 12,18: Aborted
+srun: error: k006: task 93: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781526] *** Process received signal ***
+[k005:2781526] Signal: Aborted (6)
+[k005:2781526] Signal code:  (-6)
+[k005:2781526] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7ffa25d4ebf0]
+[k005:2781526] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7ffa25d9bedc]
+[k005:2781526] [ 2] /lib64/libc.so.6(raise+0x16)[0x7ffa25d4eb46]
+[k005:2781526] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7ffa25d38833]
+[k005:2781526] [ 4] /lib64/libc.so.6(+0x29172)[0x7ffa25d39172]
+[k005:2781526] [ 5] /lib64/libc.so.6(+0x95f87)[0x7ffa25da5f87]
+[k005:2781526] [ 6] /lib64/libc.so.6(+0x9621c)[0x7ffa25da621c]
+[k005:2781526] [ 7] /lib64/libc.so.6(free+0x9a)[0x7ffa25daa30a]
+[k005:2781526] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x56294aad4026]
+[k005:2781526] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x56294aad186e]
+[k005:2781526] [10] /lib64/libc.so.6(+0x295d0)[0x7ffa25d395d0]
+[k005:2781526] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7ffa25d39680]
+[k005:2781526] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x56294aad1bc5]
+[k005:2781526] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781537] *** Process received signal ***
+[k005:2781537] Signal: Aborted (6)
+[k005:2781537] Signal code:  (-6)
+[k005:2781537] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fa97c5e0bf0]
+[k005:2781537] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fa97c62dedc]
+[k005:2781537] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fa97c5e0b46]
+[k005:2781537] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fa97c5ca833]
+[k005:2781537] [ 4] /lib64/libc.so.6(+0x29172)[0x7fa97c5cb172]
+[k005:2781537] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fa97c637f87]
+[k005:2781537] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fa97c63821c]
+[k005:2781537] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fa97c63c30a]
+[k005:2781537] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55e4f6427026]
+[k005:2781537] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55e4f642486e]
+[k005:2781537] [10] /lib64/libc.so.6(+0x295d0)[0x7fa97c5cb5d0]
+[k005:2781537] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fa97c5cb680]
+[k005:2781537] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55e4f6424bc5]
+[k005:2781537] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781576] *** Process received signal ***
+[k005:2781576] Signal: Aborted (6)
+[k005:2781576] Signal code:  (-6)
+[k005:2781576] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f064efcabf0]
+[k005:2781576] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f064f017edc]
+[k005:2781576] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f064efcab46]
+[k005:2781576] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f064efb4833]
+[k005:2781576] [ 4] /lib64/libc.so.6(+0x29172)[0x7f064efb5172]
+[k005:2781576] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f064f021f87]
+[k005:2781576] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f064f02221c]
+[k005:2781576] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f064f02630a]
+[k005:2781576] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55b5006e9026]
+[k005:2781576] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55b5006e686e]
+[k005:2781576] [10] /lib64/libc.so.6(+0x295d0)[0x7f064efb55d0]
+[k005:2781576] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f064efb5680]
+[k005:2781576] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55b5006e6bc5]
+[k005:2781576] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781560] *** Process received signal ***
+[k005:2781560] Signal: Aborted (6)
+[k005:2781560] Signal code:  (-6)
+[k005:2781560] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fe30c3eebf0]
+[k005:2781560] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fe30c43bedc]
+[k005:2781560] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fe30c3eeb46]
+[k005:2781560] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fe30c3d8833]
+[k005:2781560] [ 4] /lib64/libc.so.6(+0x29172)[0x7fe30c3d9172]
+[k005:2781560] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fe30c445f87]
+[k005:2781560] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fe30c44621c]
+[k005:2781560] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fe30c44a30a]
+[k005:2781560] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x56490266b026]
+[k005:2781560] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x56490266886e]
+[k005:2781560] [10] /lib64/libc.so.6(+0x295d0)[0x7fe30c3d95d0]
+[k005:2781560] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fe30c3d9680]
+[k005:2781560] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x564902668bc5]
+[k005:2781560] *** End of error message ***
+srun: error: k005: tasks 45,47,57,89: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781532] *** Process received signal ***
+[k005:2781532] Signal: Aborted (6)
+[k005:2781532] Signal code:  (-6)
+[k005:2781532] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f4e8922bbf0]
+[k005:2781532] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f4e89278edc]
+[k005:2781532] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f4e8922bb46]
+[k005:2781532] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f4e89215833]
+[k005:2781532] [ 4] /lib64/libc.so.6(+0x29172)[0x7f4e89216172]
+[k005:2781532] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f4e89282f87]
+[k005:2781532] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f4e8928321c]
+[k005:2781532] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f4e8928730a]
+[k005:2781532] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55b837aa3026]
+[k005:2781532] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55b837aa086e]
+[k005:2781532] [10] /lib64/libc.so.6(+0x295d0)[0x7f4e892165d0]
+[k005:2781532] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f4e89216680]
+[k005:2781532] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55b837aa0bc5]
+[k005:2781532] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781505] *** Process received signal ***
+[k005:2781505] Signal: Aborted (6)
+[k005:2781505] Signal code:  (-6)
+[k005:2781505] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7ff290191bf0]
+[k005:2781505] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7ff2901deedc]
+[k005:2781505] [ 2] /lib64/libc.so.6(raise+0x16)[0x7ff290191b46]
+[k005:2781505] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7ff29017b833]
+[k005:2781505] [ 4] /lib64/libc.so.6(+0x29172)[0x7ff29017c172]
+[k005:2781505] [ 5] /lib64/libc.so.6(+0x95f87)[0x7ff2901e8f87]
+[k005:2781505] [ 6] /lib64/libc.so.6(+0x9621c)[0x7ff2901e921c]
+[k005:2781505] [ 7] /lib64/libc.so.6(free+0x9a)[0x7ff2901ed30a]
+[k005:2781505] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5637b1f86026]
+[k005:2781505] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5637b1f8386e]
+[k005:2781505] [10] /lib64/libc.so.6(+0x295d0)[0x7ff29017c5d0]
+[k005:2781505] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7ff29017c680]
+[k005:2781505] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5637b1f83bc5]
+[k005:2781505] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781575] *** Process received signal ***
+[k005:2781575] Signal: Aborted (6)
+[k005:2781575] Signal code:  (-6)
+[k005:2781575] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fbcb9579bf0]
+[k005:2781575] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fbcb95c6edc]
+[k005:2781575] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fbcb9579b46]
+[k005:2781575] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fbcb9563833]
+[k005:2781575] [ 4] /lib64/libc.so.6(+0x29172)[0x7fbcb9564172]
+[k005:2781575] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fbcb95d0f87]
+[k005:2781575] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fbcb95d121c]
+[k005:2781575] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fbcb95d530a]
+[k005:2781575] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5581056c7026]
+[k005:2781575] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5581056c486e]
+[k005:2781575] [10] /lib64/libc.so.6(+0x295d0)[0x7fbcb95645d0]
+[k005:2781575] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fbcb9564680]
+[k005:2781575] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5581056c4bc5]
+[k005:2781575] *** End of error message ***
+srun: error: k005: task 3: Aborted (core dumped)
+srun: error: k005: tasks 65,91: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781563] *** Process received signal ***
+[k005:2781563] Signal: Aborted (6)
+[k005:2781563] Signal code:  (-6)
+[k005:2781563] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f8879006bf0]
+[k005:2781563] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f8879053edc]
+[k005:2781563] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f8879006b46]
+[k005:2781563] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f8878ff0833]
+[k005:2781563] [ 4] /lib64/libc.so.6(+0x29172)[0x7f8878ff1172]
+[k005:2781563] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f887905df87]
+[k005:2781563] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f887905e21c]
+[k005:2781563] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f887906230a]
+[k005:2781563] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5567a94f9026]
+[k005:2781563] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5567a94f686e]
+[k005:2781563] [10] /lib64/libc.so.6(+0x295d0)[0x7f8878ff15d0]
+[k005:2781563] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f8878ff1680]
+[k005:2781563] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5567a94f6bc5]
+[k005:2781563] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781572] *** Process received signal ***
+[k005:2781572] Signal: Aborted (6)
+[k005:2781572] Signal code:  (-6)
+[k005:2781572] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f9a2f2f2bf0]
+[k005:2781572] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f9a2f33fedc]
+[k005:2781572] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f9a2f2f2b46]
+[k005:2781572] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f9a2f2dc833]
+[k005:2781572] [ 4] /lib64/libc.so.6(+0x29172)[0x7f9a2f2dd172]
+[k005:2781572] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f9a2f349f87]
+[k005:2781572] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f9a2f34a21c]
+[k005:2781572] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f9a2f34e30a]
+[k005:2781572] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x563886b81026]
+[k005:2781572] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x563886b7e86e]
+[k005:2781572] [10] /lib64/libc.so.6(+0x295d0)[0x7f9a2f2dd5d0]
+[k005:2781572] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f9a2f2dd680]
+[k005:2781572] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x563886b7ebc5]
+[k005:2781572] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781571] *** Process received signal ***
+[k005:2781571] Signal: Aborted (6)
+[k005:2781571] Signal code:  (-6)
+[k005:2781571] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f0a29eb6bf0]
+[k005:2781571] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f0a29f03edc]
+[k005:2781571] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f0a29eb6b46]
+[k005:2781571] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f0a29ea0833]
+[k005:2781571] [ 4] /lib64/libc.so.6(+0x29172)[0x7f0a29ea1172]
+[k005:2781571] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f0a29f0df87]
+[k005:2781571] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f0a29f0e21c]
+[k005:2781571] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f0a29f1230a]
+[k005:2781571] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x559300832026]
+[k005:2781571] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55930082f86e]
+[k005:2781571] [10] /lib64/libc.so.6(+0x295d0)[0x7f0a29ea15d0]
+[k005:2781571] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f0a29ea1680]
+[k005:2781571] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55930082fbc5]
+[k005:2781571] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781542] *** Process received signal ***
+[k005:2781542] Signal: Aborted (6)
+[k005:2781542] Signal code:  (-6)
+[k005:2781542] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fdabfd18bf0]
+[k005:2781542] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fdabfd65edc]
+[k005:2781542] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fdabfd18b46]
+[k005:2781542] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fdabfd02833]
+[k005:2781542] [ 4] /lib64/libc.so.6(+0x29172)[0x7fdabfd03172]
+[k005:2781542] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fdabfd6ff87]
+[k005:2781542] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fdabfd7021c]
+[k005:2781542] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fdabfd7430a]
+[k005:2781542] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x562b07c43026]
+[k005:2781542] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x562b07c4086e]
+[k005:2781542] [10] /lib64/libc.so.6(+0x295d0)[0x7fdabfd035d0]
+[k005:2781542] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fdabfd03680]
+[k005:2781542] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x562b07c40bc5]
+[k005:2781542] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781566] *** Process received signal ***
+[k005:2781566] Signal: Aborted (6)
+[k005:2781566] Signal code:  (-6)
+[k005:2781566] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f0083373bf0]
+[k005:2781566] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f00833c0edc]
+[k005:2781566] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f0083373b46]
+[k005:2781566] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f008335d833]
+[k005:2781566] [ 4] /lib64/libc.so.6(+0x29172)[0x7f008335e172]
+[k005:2781566] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f00833caf87]
+[k005:2781566] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f00833cb21c]
+[k005:2781566] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f00833cf30a]
+[k005:2781566] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x555a26b68026]
+[k005:2781566] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x555a26b6586e]
+[k005:2781566] [10] /lib64/libc.so.6(+0x295d0)[0x7f008335e5d0]
+[k005:2781566] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f008335e680]
+[k005:2781566] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x555a26b65bc5]
+[k005:2781566] *** End of error message ***
+srun: error: k005: tasks 33,61: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781508] *** Process received signal ***
+[k005:2781508] Signal: Aborted (6)
+[k005:2781508] Signal code:  (-6)
+[k005:2781508] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fbe2b27fbf0]
+[k005:2781508] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fbe2b2ccedc]
+[k005:2781508] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fbe2b27fb46]
+[k005:2781508] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fbe2b269833]
+[k005:2781508] [ 4] /lib64/libc.so.6(+0x29172)[0x7fbe2b26a172]
+[k005:2781508] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fbe2b2d6f87]
+[k005:2781508] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fbe2b2d721c]
+[k005:2781508] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fbe2b2db30a]
+[k005:2781508] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x555b3fae9026]
+[k005:2781508] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x555b3fae686e]
+[k005:2781508] [10] /lib64/libc.so.6(+0x295d0)[0x7fbe2b26a5d0]
+[k005:2781508] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fbe2b26a680]
+[k005:2781508] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x555b3fae6bc5]
+[k005:2781508] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781536] *** Process received signal ***
+[k005:2781536] Signal: Aborted (6)
+[k005:2781536] Signal code:  (-6)
+[k005:2781536] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fb5db862bf0]
+[k005:2781536] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fb5db8afedc]
+[k005:2781536] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fb5db862b46]
+[k005:2781536] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fb5db84c833]
+[k005:2781536] [ 4] /lib64/libc.so.6(+0x29172)[0x7fb5db84d172]
+[k005:2781536] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fb5db8b9f87]
+[k005:2781536] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fb5db8ba21c]
+[k005:2781536] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fb5db8be30a]
+[k005:2781536] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5631865de026]
+[k005:2781536] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5631865db86e]
+[k005:2781536] [10] /lib64/libc.so.6(+0x295d0)[0x7fb5db84d5d0]
+[k005:2781536] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fb5db84d680]
+[k005:2781536] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5631865dbbc5]
+[k005:2781536] *** End of error message ***
+srun: error: k005: tasks 26,37,60,76: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781564] *** Process received signal ***
+[k005:2781564] Signal: Aborted (6)
+[k005:2781564] Signal code:  (-6)
+[k005:2781564] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fa6aa293bf0]
+[k005:2781564] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fa6aa2e0edc]
+[k005:2781564] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fa6aa293b46]
+[k005:2781564] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fa6aa27d833]
+[k005:2781564] [ 4] /lib64/libc.so.6(+0x29172)[0x7fa6aa27e172]
+[k005:2781564] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fa6aa2eaf87]
+[k005:2781564] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fa6aa2eb21c]
+[k005:2781564] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fa6aa2ef30a]
+[k005:2781564] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x555a2a9a9026]
+[k005:2781564] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x555a2a9a686e]
+[k005:2781564] [10] /lib64/libc.so.6(+0x295d0)[0x7fa6aa27e5d0]
+[k005:2781564] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fa6aa27e680]
+[k005:2781564] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x555a2a9a6bc5]
+[k005:2781564] *** End of error message ***
+srun: error: k005: tasks 5,32,63,71-72,75: Aborted
+srun: error: k005: tasks 8,36,66: Aborted
+srun: error: k005: task 52: Aborted (core dumped)
+srun: error: k005: task 64: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781579] *** Process received signal ***
+[k005:2781579] Signal: Aborted (6)
+[k005:2781579] Signal code:  (-6)
+[k005:2781579] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f53efe90bf0]
+[k005:2781579] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f53efeddedc]
+[k005:2781579] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f53efe90b46]
+[k005:2781579] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f53efe7a833]
+[k005:2781579] [ 4] /lib64/libc.so.6(+0x29172)[0x7f53efe7b172]
+[k005:2781579] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f53efee7f87]
+[k005:2781579] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f53efee821c]
+[k005:2781579] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f53efeec30a]
+[k005:2781579] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55c96805a026]
+[k005:2781579] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55c96805786e]
+[k005:2781579] [10] /lib64/libc.so.6(+0x295d0)[0x7f53efe7b5d0]
+[k005:2781579] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f53efe7b680]
+[k005:2781579] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55c968057bc5]
+[k005:2781579] *** End of error message ***
+srun: error: k005: tasks 17,85: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781554] *** Process received signal ***
+[k005:2781554] Signal: Aborted (6)
+[k005:2781554] Signal code:  (-6)
+[k005:2781554] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fc62a140bf0]
+[k005:2781554] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fc62a18dedc]
+[k005:2781554] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fc62a140b46]
+[k005:2781554] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fc62a12a833]
+[k005:2781554] [ 4] /lib64/libc.so.6(+0x29172)[0x7fc62a12b172]
+[k005:2781554] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fc62a197f87]
+[k005:2781554] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fc62a19821c]
+[k005:2781554] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fc62a19c30a]
+[k005:2781554] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x56088fa3e026]
+[k005:2781554] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x56088fa3b86e]
+[k005:2781554] [10] /lib64/libc.so.6(+0x295d0)[0x7fc62a12b5d0]
+[k005:2781554] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fc62a12b680]
+[k005:2781554] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x56088fa3bbc5]
+[k005:2781554] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781550] *** Process received signal ***
+[k005:2781550] Signal: Aborted (6)
+[k005:2781550] Signal code:  (-6)
+[k005:2781550] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f9a45dbdbf0]
+[k005:2781550] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f9a45e0aedc]
+[k005:2781550] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f9a45dbdb46]
+[k005:2781550] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f9a45da7833]
+[k005:2781550] [ 4] /lib64/libc.so.6(+0x29172)[0x7f9a45da8172]
+[k005:2781550] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f9a45e14f87]
+[k005:2781550] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f9a45e1521c]
+[k005:2781550] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f9a45e1930a]
+[k005:2781550] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55ac9db18026]
+[k005:2781550] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55ac9db1586e]
+[k005:2781550] [10] /lib64/libc.so.6(+0x295d0)[0x7f9a45da85d0]
+[k005:2781550] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f9a45da8680]
+[k005:2781550] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55ac9db15bc5]
+[k005:2781550] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781506] *** Process received signal ***
+[k005:2781506] Signal: Aborted (6)
+[k005:2781506] Signal code:  (-6)
+[k005:2781506] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7ff5fda4abf0]
+[k005:2781506] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7ff5fda97edc]
+[k005:2781506] [ 2] /lib64/libc.so.6(raise+0x16)[0x7ff5fda4ab46]
+[k005:2781506] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7ff5fda34833]
+[k005:2781506] [ 4] /lib64/libc.so.6(+0x29172)[0x7ff5fda35172]
+[k005:2781506] [ 5] /lib64/libc.so.6(+0x95f87)[0x7ff5fdaa1f87]
+[k005:2781506] [ 6] /lib64/libc.so.6(+0x9621c)[0x7ff5fdaa221c]
+[k005:2781506] [ 7] /lib64/libc.so.6(free+0x9a)[0x7ff5fdaa630a]
+[k005:2781506] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x556dc0f3b026]
+[k005:2781506] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x556dc0f3886e]
+munmap_chunk(): invalid pointer
+[k005:2781506] [10] /lib64/libc.so.6(+0x295d0)[0x7ff5fda355d0]
+[k005:2781506] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7ff5fda35680]
+[k005:2781506] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x556dc0f38bc5]
+[k005:2781506] *** End of error message ***
+[k005:2781524] *** Process received signal ***
+[k005:2781524] Signal: Aborted (6)
+[k005:2781524] Signal code:  (-6)
+[k005:2781524] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f21ca438bf0]
+[k005:2781524] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f21ca485edc]
+[k005:2781524] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f21ca438b46]
+[k005:2781524] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f21ca422833]
+[k005:2781524] [ 4] /lib64/libc.so.6(+0x29172)[0x7f21ca423172]
+[k005:2781524] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f21ca48ff87]
+[k005:2781524] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f21ca49021c]
+[k005:2781524] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f21ca49430a]
+[k005:2781524] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x561e93cb4026]
+[k005:2781524] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x561e93cb186e]
+[k005:2781524] [10] /lib64/libc.so.6(+0x295d0)[0x7f21ca4235d0]
+[k005:2781524] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f21ca423680]
+[k005:2781524] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x561e93cb1bc5]
+[k005:2781524] *** End of error message ***
+srun: error: k005: tasks 7,77,86: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781529] *** Process received signal ***
+[k005:2781529] Signal: Aborted (6)
+[k005:2781529] Signal code:  (-6)
+[k005:2781529] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f02c89d8bf0]
+[k005:2781529] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f02c8a25edc]
+[k005:2781529] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f02c89d8b46]
+[k005:2781529] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f02c89c2833]
+[k005:2781529] [ 4] /lib64/libc.so.6(+0x29172)[0x7f02c89c3172]
+[k005:2781529] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f02c8a2ff87]
+[k005:2781529] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f02c8a3021c]
+[k005:2781529] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f02c8a3430a]
+[k005:2781529] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x557e44eae026]
+[k005:2781529] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x557e44eab86e]
+[k005:2781529] [10] /lib64/libc.so.6(+0x295d0)[0x7f02c89c35d0]
+[k005:2781529] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f02c89c3680]
+[k005:2781529] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x557e44eabbc5]
+[k005:2781529] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781590] *** Process received signal ***
+[k005:2781590] Signal: Aborted (6)
+[k005:2781590] Signal code:  (-6)
+[k005:2781590] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7faed4f47bf0]
+[k005:2781590] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7faed4f94edc]
+[k005:2781590] [ 2] /lib64/libc.so.6(raise+0x16)[0x7faed4f47b46]
+[k005:2781590] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7faed4f31833]
+[k005:2781590] [ 4] /lib64/libc.so.6(+0x29172)[0x7faed4f32172]
+[k005:2781590] [ 5] /lib64/libc.so.6(+0x95f87)[0x7faed4f9ef87]
+[k005:2781590] [ 6] /lib64/libc.so.6(+0x9621c)[0x7faed4f9f21c]
+[k005:2781590] [ 7] /lib64/libc.so.6(free+0x9a)[0x7faed4fa330a]
+[k005:2781590] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55fdb666b026]
+[k005:2781590] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55fdb666886e]
+[k005:2781590] [10] /lib64/libc.so.6(+0x295d0)[0x7faed4f325d0]
+[k005:2781590] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7faed4f32680]
+[k005:2781590] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55fdb6668bc5]
+[k005:2781590] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781527] *** Process received signal ***
+[k005:2781527] Signal: Aborted (6)
+[k005:2781527] Signal code:  (-6)
+[k005:2781527] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fb9dfc70bf0]
+[k005:2781527] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fb9dfcbdedc]
+[k005:2781527] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fb9dfc70b46]
+[k005:2781527] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fb9dfc5a833]
+[k005:2781527] [ 4] /lib64/libc.so.6(+0x29172)[0x7fb9dfc5b172]
+[k005:2781527] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fb9dfcc7f87]
+[k005:2781527] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fb9dfcc821c]
+[k005:2781527] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fb9dfccc30a]
+[k005:2781527] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55920f888026]
+[k005:2781527] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55920f88586e]
+[k005:2781527] [10] /lib64/libc.so.6(+0x295d0)[0x7fb9dfc5b5d0]
+[k005:2781527] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fb9dfc5b680]
+[k005:2781527] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55920f885bc5]
+[k005:2781527] *** End of error message ***
+srun: error: k005: task 11: Aborted (core dumped)
+srun: error: k005: task 49: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781519] *** Process received signal ***
+[k005:2781519] Signal: Aborted (6)
+[k005:2781519] Signal code:  (-6)
+[k005:2781519] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f83007ffbf0]
+[k005:2781519] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f830084cedc]
+[k005:2781519] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f83007ffb46]
+[k005:2781519] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f83007e9833]
+[k005:2781519] [ 4] /lib64/libc.so.6(+0x29172)[0x7f83007ea172]
+[k005:2781519] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f8300856f87]
+[k005:2781519] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f830085721c]
+[k005:2781519] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f830085b30a]
+[k005:2781519] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55659cc54026]
+[k005:2781519] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55659cc5186e]
+[k005:2781519] [10] /lib64/libc.so.6(+0x295d0)[0x7f83007ea5d0]
+[k005:2781519] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f83007ea680]
+[k005:2781519] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55659cc51bc5]
+[k005:2781519] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781543] *** Process received signal ***
+[k005:2781543] Signal: Aborted (6)
+[k005:2781543] Signal code:  (-6)
+[k005:2781543] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f8ff3799bf0]
+[k005:2781543] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f8ff37e6edc]
+[k005:2781543] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f8ff3799b46]
+[k005:2781543] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f8ff3783833]
+[k005:2781543] [ 4] /lib64/libc.so.6(+0x29172)[0x7f8ff3784172]
+[k005:2781543] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f8ff37f0f87]
+[k005:2781543] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f8ff37f121c]
+[k005:2781543] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f8ff37f530a]
+[k005:2781543] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55ae38702026]
+[k005:2781543] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55ae386ff86e]
+[k005:2781543] [10] /lib64/libc.so.6(+0x295d0)[0x7f8ff37845d0]
+[k005:2781543] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f8ff3784680]
+[k005:2781543] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55ae386ffbc5]
+[k005:2781543] *** End of error message ***
+srun: error: k005: task 27: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781509] *** Process received signal ***
+[k005:2781509] Signal: Aborted (6)
+[k005:2781509] Signal code:  (-6)
+[k005:2781509] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f3b5b280bf0]
+[k005:2781509] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f3b5b2cdedc]
+[k005:2781509] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f3b5b280b46]
+[k005:2781509] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f3b5b26a833]
+[k005:2781509] [ 4] /lib64/libc.so.6(+0x29172)[0x7f3b5b26b172]
+[k005:2781509] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f3b5b2d7f87]
+[k005:2781509] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f3b5b2d821c]
+[k005:2781509] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f3b5b2dc30a]
+[k005:2781509] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55dcfef57026]
+[k005:2781509] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55dcfef5486e]
+[k005:2781509] [10] /lib64/libc.so.6(+0x295d0)[0x7f3b5b26b5d0]
+[k005:2781509] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f3b5b26b680]
+[k005:2781509] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55dcfef54bc5]
+[k005:2781509] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781548] *** Process received signal ***
+[k005:2781548] Signal: Aborted (6)
+[k005:2781548] Signal code:  (-6)
+[k005:2781548] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f4664c19bf0]
+[k005:2781548] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f4664c66edc]
+[k005:2781548] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f4664c19b46]
+[k005:2781548] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f4664c03833]
+[k005:2781548] [ 4] /lib64/libc.so.6(+0x29172)[0x7f4664c04172]
+[k005:2781548] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f4664c70f87]
+[k005:2781548] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f4664c7121c]
+[k005:2781548] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f4664c7530a]
+[k005:2781548] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x559f911cb026]
+[k005:2781548] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x559f911c886e]
+[k005:2781548] [10] /lib64/libc.so.6(+0x295d0)[0x7f4664c045d0]
+[k005:2781548] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f4664c04680]
+[k005:2781548] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x559f911c8bc5]
+[k005:2781548] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781510] *** Process received signal ***
+[k005:2781510] Signal: Aborted (6)
+[k005:2781510] Signal code:  (-6)
+[k005:2781510] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f5d23c86bf0]
+[k005:2781510] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f5d23cd3edc]
+[k005:2781510] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f5d23c86b46]
+[k005:2781510] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f5d23c70833]
+[k005:2781510] [ 4] /lib64/libc.so.6(+0x29172)[0x7f5d23c71172]
+[k005:2781510] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f5d23cddf87]
+[k005:2781510] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f5d23cde21c]
+[k005:2781510] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f5d23ce230a]
+[k005:2781510] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55f19bfa1026]
+[k005:2781510] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55f19bf9e86e]
+[k005:2781510] [10] /lib64/libc.so.6(+0x295d0)[0x7f5d23c715d0]
+[k005:2781510] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f5d23c71680]
+[k005:2781510] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55f19bf9ebc5]
+[k005:2781510] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781562] *** Process received signal ***
+[k005:2781562] Signal: Aborted (6)
+[k005:2781562] Signal code:  (-6)
+[k005:2781562] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fb0a4ee9bf0]
+[k005:2781562] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fb0a4f36edc]
+[k005:2781562] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fb0a4ee9b46]
+[k005:2781562] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fb0a4ed3833]
+[k005:2781562] [ 4] /lib64/libc.so.6(+0x29172)[0x7fb0a4ed4172]
+[k005:2781562] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fb0a4f40f87]
+[k005:2781562] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fb0a4f4121c]
+[k005:2781562] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fb0a4f4530a]
+[k005:2781562] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55906222d026]
+[k005:2781562] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55906222a86e]
+[k005:2781562] [10] /lib64/libc.so.6(+0x295d0)[0x7fb0a4ed45d0]
+[k005:2781562] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fb0a4ed4680]
+[k005:2781562] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55906222abc5]
+[k005:2781562] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781559] *** Process received signal ***
+[k005:2781559] Signal: Aborted (6)
+[k005:2781559] Signal code:  (-6)
+[k005:2781559] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fd51bd41bf0]
+[k005:2781559] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fd51bd8eedc]
+[k005:2781559] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fd51bd41b46]
+[k005:2781559] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fd51bd2b833]
+[k005:2781559] [ 4] /lib64/libc.so.6(+0x29172)[0x7fd51bd2c172]
+[k005:2781559] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fd51bd98f87]
+[k005:2781559] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fd51bd9921c]
+[k005:2781559] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fd51bd9d30a]
+[k005:2781559] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55ae301de026]
+[k005:2781559] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55ae301db86e]
+[k005:2781559] [10] /lib64/libc.so.6(+0x295d0)[0x7fd51bd2c5d0]
+[k005:2781559] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fd51bd2c680]
+[k005:2781559] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55ae301dbbc5]
+[k005:2781559] *** End of error message ***
+srun: error: k005: tasks 81,88: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781530] *** Process received signal ***
+[k005:2781530] Signal: Aborted (6)
+[k005:2781530] Signal code:  (-6)
+[k005:2781530] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fb31781fbf0]
+[k005:2781530] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fb31786cedc]
+[k005:2781530] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fb31781fb46]
+[k005:2781530] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fb317809833]
+[k005:2781530] [ 4] /lib64/libc.so.6(+0x29172)[0x7fb31780a172]
+[k005:2781530] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fb317876f87]
+[k005:2781530] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fb31787721c]
+[k005:2781530] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fb31787b30a]
+[k005:2781530] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55986cbc7026]
+[k005:2781530] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55986cbc486e]
+[k005:2781530] [10] /lib64/libc.so.6(+0x295d0)[0x7fb31780a5d0]
+[k005:2781530] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fb31780a680]
+[k005:2781530] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55986cbc4bc5]
+[k005:2781530] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781580] *** Process received signal ***
+[k005:2781580] Signal: Aborted (6)
+[k005:2781580] Signal code:  (-6)
+[k005:2781580] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fe5340e9bf0]
+[k005:2781580] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fe534136edc]
+[k005:2781580] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fe5340e9b46]
+[k005:2781580] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fe5340d3833]
+[k005:2781580] [ 4] /lib64/libc.so.6(+0x29172)[0x7fe5340d4172]
+[k005:2781580] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fe534140f87]
+[k005:2781580] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fe53414121c]
+[k005:2781580] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fe53414530a]
+[k005:2781580] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x556efecf6026]
+[k005:2781580] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x556efecf386e]
+[k005:2781580] [10] /lib64/libc.so.6(+0x295d0)[0x7fe5340d45d0]
+[k005:2781580] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fe5340d4680]
+[k005:2781580] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x556efecf3bc5]
+[k005:2781580] *** End of error message ***
+srun: error: k005: tasks 21,31: Aborted (core dumped)
+srun: error: k005: task 48: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781516] *** Process received signal ***
+[k005:2781516] Signal: Aborted (6)
+[k005:2781516] Signal code:  (-6)
+[k005:2781516] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f6468ff8bf0]
+[k005:2781516] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f6469045edc]
+[k005:2781516] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f6468ff8b46]
+[k005:2781516] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f6468fe2833]
+[k005:2781516] [ 4] /lib64/libc.so.6(+0x29172)[0x7f6468fe3172]
+[k005:2781516] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f646904ff87]
+[k005:2781516] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f646905021c]
+[k005:2781516] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f646905430a]
+[k005:2781516] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x563f4d9e7026]
+[k005:2781516] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x563f4d9e486e]
+[k005:2781516] [10] /lib64/libc.so.6(+0x295d0)[0x7f6468fe35d0]
+[k005:2781516] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f6468fe3680]
+[k005:2781516] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x563f4d9e4bc5]
+[k005:2781516] *** End of error message ***
+srun: error: k005: task 25: Aborted (core dumped)
+srun: error: k005: task 62: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781514] *** Process received signal ***
+[k005:2781514] Signal: Aborted (6)
+[k005:2781514] Signal code:  (-6)
+[k005:2781514] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fbda867dbf0]
+[k005:2781514] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fbda86caedc]
+[k005:2781514] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fbda867db46]
+[k005:2781514] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fbda8667833]
+[k005:2781514] [ 4] /lib64/libc.so.6(+0x29172)[0x7fbda8668172]
+[k005:2781514] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fbda86d4f87]
+[k005:2781514] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fbda86d521c]
+[k005:2781514] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fbda86d930a]
+[k005:2781514] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x555af7b42026]
+[k005:2781514] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x555af7b3f86e]
+[k005:2781514] [10] /lib64/libc.so.6(+0x295d0)[0x7fbda86685d0]
+[k005:2781514] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fbda8668680]
+[k005:2781514] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x555af7b3fbc5]
+[k005:2781514] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781539] *** Process received signal ***
+[k005:2781539] Signal: Aborted (6)
+[k005:2781539] Signal code:  (-6)
+[k005:2781539] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f293442ebf0]
+[k005:2781539] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f293447bedc]
+[k005:2781539] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f293442eb46]
+[k005:2781539] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f2934418833]
+[k005:2781539] [ 4] /lib64/libc.so.6(+0x29172)[0x7f2934419172]
+[k005:2781539] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f2934485f87]
+[k005:2781539] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f293448621c]
+[k005:2781539] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f293448a30a]
+[k005:2781539] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x555b2c4c9026]
+[k005:2781539] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x555b2c4c686e]
+[k005:2781539] [10] /lib64/libc.so.6(+0x295d0)[0x7f29344195d0]
+[k005:2781539] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f2934419680]
+[k005:2781539] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x555b2c4c6bc5]
+[k005:2781539] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781551] *** Process received signal ***
+[k005:2781551] Signal: Aborted (6)
+[k005:2781551] Signal code:  (-6)
+[k005:2781551] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f3580763bf0]
+[k005:2781551] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f35807b0edc]
+[k005:2781551] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f3580763b46]
+[k005:2781551] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f358074d833]
+[k005:2781551] [ 4] /lib64/libc.so.6(+0x29172)[0x7f358074e172]
+[k005:2781551] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f35807baf87]
+[k005:2781551] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f35807bb21c]
+[k005:2781551] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f35807bf30a]
+[k005:2781551] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55e0feafe026]
+[k005:2781551] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55e0feafb86e]
+[k005:2781551] [10] /lib64/libc.so.6(+0x295d0)[0x7f358074e5d0]
+[k005:2781551] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f358074e680]
+[k005:2781551] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55e0feafbbc5]
+[k005:2781551] *** End of error message ***
+srun: error: k005: tasks 30,80: Aborted
+srun: error: k005: task 78: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781568] *** Process received signal ***
+[k005:2781568] Signal: Aborted (6)
+[k005:2781568] Signal code:  (-6)
+[k005:2781568] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f3766e20bf0]
+[k005:2781568] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f3766e6dedc]
+[k005:2781568] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f3766e20b46]
+[k005:2781568] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f3766e0a833]
+[k005:2781568] [ 4] /lib64/libc.so.6(+0x29172)[0x7f3766e0b172]
+[k005:2781568] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f3766e77f87]
+[k005:2781568] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f3766e7821c]
+[k005:2781568] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f3766e7c30a]
+[k005:2781568] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x56489d32b026]
+[k005:2781568] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x56489d32886e]
+[k005:2781568] [10] /lib64/libc.so.6(+0x295d0)[0x7f3766e0b5d0]
+[k005:2781568] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f3766e0b680]
+[k005:2781568] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x56489d328bc5]
+[k005:2781568] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781534] *** Process received signal ***
+[k005:2781534] Signal: Aborted (6)
+[k005:2781534] Signal code:  (-6)
+[k005:2781534] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f3ab1ec5bf0]
+[k005:2781534] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f3ab1f12edc]
+[k005:2781534] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f3ab1ec5b46]
+[k005:2781534] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f3ab1eaf833]
+[k005:2781534] [ 4] /lib64/libc.so.6(+0x29172)[0x7f3ab1eb0172]
+[k005:2781534] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f3ab1f1cf87]
+[k005:2781534] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f3ab1f1d21c]
+[k005:2781534] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f3ab1f2130a]
+[k005:2781534] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5566025ba026]
+[k005:2781534] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5566025b786e]
+[k005:2781534] [10] /lib64/libc.so.6(+0x295d0)[0x7f3ab1eb05d0]
+[k005:2781534] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f3ab1eb0680]
+[k005:2781534] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5566025b7bc5]
+[k005:2781534] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781540] *** Process received signal ***
+[k005:2781540] Signal: Aborted (6)
+[k005:2781540] Signal code:  (-6)
+[k005:2781540] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fa687132bf0]
+[k005:2781540] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fa68717fedc]
+[k005:2781540] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fa687132b46]
+[k005:2781540] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fa68711c833]
+[k005:2781540] [ 4] /lib64/libc.so.6(+0x29172)[0x7fa68711d172]
+[k005:2781540] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fa687189f87]
+[k005:2781540] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fa68718a21c]
+[k005:2781540] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fa68718e30a]
+[k005:2781540] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55d1b6c9e026]
+[k005:2781540] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55d1b6c9b86e]
+[k005:2781540] [10] /lib64/libc.so.6(+0x295d0)[0x7fa68711d5d0]
+[k005:2781540] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fa68711d680]
+[k005:2781540] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55d1b6c9bbc5]
+[k005:2781540] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781538] *** Process received signal ***
+[k005:2781538] Signal: Aborted (6)
+[k005:2781538] Signal code:  (-6)
+[k005:2781538] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f8ee4961bf0]
+[k005:2781538] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f8ee49aeedc]
+[k005:2781538] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f8ee4961b46]
+[k005:2781538] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f8ee494b833]
+[k005:2781538] [ 4] /lib64/libc.so.6(+0x29172)[0x7f8ee494c172]
+[k005:2781538] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f8ee49b8f87]
+[k005:2781538] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f8ee49b921c]
+[k005:2781538] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f8ee49bd30a]
+[k005:2781538] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55b2521c1026]
+[k005:2781538] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55b2521be86e]
+[k005:2781538] [10] /lib64/libc.so.6(+0x295d0)[0x7f8ee494c5d0]
+[k005:2781538] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f8ee494c680]
+[k005:2781538] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55b2521bebc5]
+[k005:2781538] *** End of error message ***
+srun: error: k005: tasks 14,39,51: Aborted
+srun: error: k005: task 74: Aborted (core dumped)
+srun: error: k005: task 68: Aborted
+munmap_chunk(): invalid pointer
+[k005:2781502] *** Process received signal ***
+[k005:2781502] Signal: Aborted (6)
+[k005:2781502] Signal code:  (-6)
+[k005:2781502] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f17b7a7cbf0]
+[k005:2781502] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f17b7ac9edc]
+[k005:2781502] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f17b7a7cb46]
+[k005:2781502] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f17b7a66833]
+[k005:2781502] [ 4] /lib64/libc.so.6(+0x29172)[0x7f17b7a67172]
+[k005:2781502] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f17b7ad3f87]
+[k005:2781502] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f17b7ad421c]
+[k005:2781502] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f17b7ad830a]
+[k005:2781502] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x56516cd7b026]
+[k005:2781502] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x56516cd7886e]
+[k005:2781502] [10] /lib64/libc.so.6(+0x295d0)[0x7f17b7a675d0]
+[k005:2781502] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f17b7a67680]
+[k005:2781502] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x56516cd78bc5]
+[k005:2781502] *** End of error message ***
+munmap_chunk(): invalid pointer
+[k005:2781544] *** Process received signal ***
+[k005:2781544] Signal: Aborted (6)
+[k005:2781544] Signal code:  (-6)
+[k005:2781544] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f28bc7cebf0]
+[k005:2781544] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f28bc81bedc]
+[k005:2781544] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f28bc7ceb46]
+[k005:2781544] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f28bc7b8833]
+[k005:2781544] [ 4] /lib64/libc.so.6(+0x29172)[0x7f28bc7b9172]
+[k005:2781544] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f28bc825f87]
+[k005:2781544] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f28bc82621c]
+[k005:2781544] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f28bc82a30a]
+[k005:2781544] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5563ca4ec026]
+[k005:2781544] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5563ca4e986e]
+[k005:2781544] [10] /lib64/libc.so.6(+0x295d0)[0x7f28bc7b95d0]
+[k005:2781544] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f28bc7b9680]
+[k005:2781544] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5563ca4e9bc5]
+[k005:2781544] *** End of error message ***
+srun: error: k005: tasks 38,40: Aborted
+srun: error: k005: task 56: Aborted (core dumped)
+srun: error: k005: task 42: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781520] *** Process received signal ***
+[k005:2781520] Signal: Aborted (6)
+[k005:2781520] Signal code:  (-6)
+[k005:2781520] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7f091ff5ebf0]
+[k005:2781520] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7f091ffabedc]
+[k005:2781520] [ 2] /lib64/libc.so.6(raise+0x16)[0x7f091ff5eb46]
+[k005:2781520] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7f091ff48833]
+[k005:2781520] [ 4] /lib64/libc.so.6(+0x29172)[0x7f091ff49172]
+[k005:2781520] [ 5] /lib64/libc.so.6(+0x95f87)[0x7f091ffb5f87]
+[k005:2781520] [ 6] /lib64/libc.so.6(+0x9621c)[0x7f091ffb621c]
+[k005:2781520] [ 7] /lib64/libc.so.6(free+0x9a)[0x7f091ffba30a]
+[k005:2781520] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x5642806bb026]
+[k005:2781520] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x5642806b886e]
+[k005:2781520] [10] /lib64/libc.so.6(+0x295d0)[0x7f091ff495d0]
+[k005:2781520] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7f091ff49680]
+[k005:2781520] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x5642806b8bc5]
+[k005:2781520] *** End of error message ***
+srun: error: k005: tasks 54,79: Aborted (core dumped)
+srun: error: k005: tasks 6,50: Aborted (core dumped)
+srun: error: k005: tasks 24,29: Aborted (core dumped)
+srun: error: k005: tasks 9,19,43: Aborted (core dumped)
+srun: error: k005: task 59: Aborted (core dumped)
+srun: error: k005: tasks 10,90: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781541] *** Process received signal ***
+[k005:2781541] Signal: Aborted (6)
+[k005:2781541] Signal code:  (-6)
+[k005:2781541] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fc66cc1bbf0]
+[k005:2781541] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fc66cc68edc]
+[k005:2781541] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fc66cc1bb46]
+[k005:2781541] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fc66cc05833]
+[k005:2781541] [ 4] /lib64/libc.so.6(+0x29172)[0x7fc66cc06172]
+[k005:2781541] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fc66cc72f87]
+[k005:2781541] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fc66cc7321c]
+[k005:2781541] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fc66cc7730a]
+[k005:2781541] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x55913b2b6026]
+[k005:2781541] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x55913b2b386e]
+[k005:2781541] [10] /lib64/libc.so.6(+0x295d0)[0x7fc66cc065d0]
+[k005:2781541] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fc66cc06680]
+[k005:2781541] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x55913b2b3bc5]
+[k005:2781541] *** End of error message ***
+srun: error: k005: task 16: Aborted (core dumped)
+munmap_chunk(): invalid pointer
+[k005:2781570] *** Process received signal ***
+[k005:2781570] Signal: Aborted (6)
+[k005:2781570] Signal code:  (-6)
+[k005:2781570] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x7fb0b6a94bf0]
+[k005:2781570] [ 1] /lib64/libc.so.6(+0x8bedc)[0x7fb0b6ae1edc]
+[k005:2781570] [ 2] /lib64/libc.so.6(raise+0x16)[0x7fb0b6a94b46]
+[k005:2781570] [ 3] /lib64/libc.so.6(abort+0xd3)[0x7fb0b6a7e833]
+[k005:2781570] [ 4] /lib64/libc.so.6(+0x29172)[0x7fb0b6a7f172]
+[k005:2781570] [ 5] /lib64/libc.so.6(+0x95f87)[0x7fb0b6aebf87]
+[k005:2781570] [ 6] /lib64/libc.so.6(+0x9621c)[0x7fb0b6aec21c]
+[k005:2781570] [ 7] /lib64/libc.so.6(free+0x9a)[0x7fb0b6af030a]
+[k005:2781570] [ 8] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x5026)[0x56420f339026]
+[k005:2781570] [ 9] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x286e)[0x56420f33686e]
+[k005:2781570] [10] /lib64/libc.so.6(+0x295d0)[0x7fb0b6a7f5d0]
+[k005:2781570] [11] /lib64/libc.so.6(__libc_start_main+0x80)[0x7fb0b6a7f680]
+[k005:2781570] [12] /mmfs1/data/home/cits3402/orafiq/assignment2/./ass2(+0x2bc5)[0x56420f336bc5]
+[k005:2781570] *** End of error message ***
+srun: error: k005: tasks 34,44: Aborted (core dumped)
+srun: error: k005: task 2: Aborted (core dumped)
+srun: error: k005: task 20: Aborted (core dumped)
+srun: error: k005: task 41: Aborted (core dumped)
+srun: error: k005: task 70: Aborted (core dumped)
+[k007:2432871:0:2432871] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2432871) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k008:1747973:0:1747973] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:1747973) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783235:0:2783235] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783235) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783162:0:2783162] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783162) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783160:0:2783160] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783160) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k006:2955389:0:2955389] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2955389) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783178:0:2783178] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783178) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k007: task 94: Bus error (core dumped)
+[k005:2783172:0:2783172] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783172) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783206:0:2783206] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783206) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783168:0:2783168] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783168) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k008: task 95: Bus error (core dumped)
+[k005:2783230:0:2783230] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783230) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783152:0:2783152] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783152) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783204:0:2783204] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783165:0:2783165] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783204) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783165) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783234:0:2783234] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783234) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783222:0:2783222] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783222) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783190:0:2783190] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783196:0:2783196] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783190) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783196) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783218:0:2783218] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783218) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783176:0:2783176] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783176) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783194:0:2783194] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783194) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783201:0:2783201] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783201) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783170:0:2783170] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783228:0:2783228] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783170) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783228) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783156:0:2783156] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783156) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783203:0:2783203] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783203) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: task 51: Bus error
+srun: error: k005: task 92: Bus error (core dumped)
+[k005:2783155:0:2783155] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783155) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783154:0:2783154] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783154) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783158:0:2783158] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783220:0:2783220] Caught signal 7 (Bus error: Sent by the kernel)
+srun: error: k005: tasks 27,58,85: Bus error
+==== backtrace (tid:2783158) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783220) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783184:0:2783184] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783184) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783217:0:2783217] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783217) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 12-13,60: Bus error
+[k005:2783145:0:2783145] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783145) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783231:0:2783231] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783216:0:2783216] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783231) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783216) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783213:0:2783213] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783213) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783221:0:2783221] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783221) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k006: task 93: Bus error (core dumped)
+[k005:2783208:0:2783208] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783174:0:2783174] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783208) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783174) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 11,15,41,77: Bus error
+[k005:2783210:0:2783210] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783210) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783163:0:2783163] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783163) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783229:0:2783229] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783229) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783182:0:2783182] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783182) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783219:0:2783219] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783171:0:2783171] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783219) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783171) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783225:0:2783225] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783225) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 2,70,73-74,88: Bus error
+[k005:2783226:0:2783226] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783226) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783187:0:2783187] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783187) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783167:0:2783167] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783167) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783144:0:2783144] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783144) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783193:0:2783193] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783198:0:2783198] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783193) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783198) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783183:0:2783183] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783183) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: task 19: Bus error (core dumped)
+srun: error: k005: tasks 31,65: Bus error
+srun: error: k005: task 17: Bus error (core dumped)
+srun: error: k005: tasks 20,28,39,67,82,86: Bus error
+[k005:2783149:0:2783149] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783149) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783200:0:2783200] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783197:0:2783197] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783200) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783197) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783150:0:2783150] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783150) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783185:0:2783185] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783185) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783189:0:2783189] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783189) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 24,44,55,83: Bus error
+srun: error: k005: task 35: Bus error (core dumped)
+[k005:2783212:0:2783212] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783212) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783173:0:2783173] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783173) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783159:0:2783159] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783159) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 40,50: Bus error
+[k005:2783169:0:2783169] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783169) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783215:0:2783215] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783215) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 6-7,42,46,54,57: Bus error
+[k005:2783188:0:2783188] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783188) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783164:0:2783164] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783164) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783233:0:2783233] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783233) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783192:0:2783192] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783192) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 16,30,69,72: Bus error
+srun: error: k005: task 29: Bus error (core dumped)
+[k005:2783202:0:2783202] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783202) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783211:0:2783211] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783211) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783232:0:2783232] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783232) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 45,90: Bus error
+[k005:2783157:0:2783157] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783157) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 21,49: Bus error
+srun: error: k005: task 63: Bus error (core dumped)
+[k005:2783151:0:2783151] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783151) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783148:0:2783148] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783148) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 25,87: Bus error (core dumped)
+srun: error: k005: task 89: Bus error
+[k005:2783195:0:2783195] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783153:0:2783153] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783214:0:2783214] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783195) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783153) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783214) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783175:0:2783175] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783175) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783161:0:2783161] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783161) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783199:0:2783199] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783199) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: task 91: Bus error (core dumped)
+[k005:2783181:0:2783181] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783181) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783207:0:2783207] Caught signal 7 (Bus error: Sent by the kernel)
+[k005:2783209:0:2783209] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783207) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+==== backtrace (tid:2783209) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783177:0:2783177] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783177) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 18,52: Bus error
+srun: error: k005: task 22: Bus error (core dumped)
+[k005:2783166:0:2783166] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783166) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783146:0:2783146] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783146) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 9,33,61: Bus error (core dumped)
+srun: error: k005: task 32: Bus error
+[k005:2783223:0:2783223] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783223) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783147:0:2783147] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783147) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 47,75,79: Bus error (core dumped)
+[k005:2783227:0:2783227] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783227) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 23,34: Bus error
+srun: error: k005: task 53: Bus error (core dumped)
+[k005:2783143:0:2783143] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783143) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: task 3: Bus error
+[k005:2783179:0:2783179] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783179) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 4,84: Bus error
+[k005:2783224:0:2783224] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783224) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+[k005:2783186:0:2783186] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783186) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 0,36: Bus error
+[k005:2783205:0:2783205] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783205) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 76,78: Bus error (core dumped)
+srun: error: k005: task 81: Bus error
+[k005:2783191:0:2783191] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783191) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: tasks 1,26: Bus error (core dumped)
+srun: error: k005: task 68: Bus error (core dumped)
+srun: error: k005: tasks 14,59: Bus error (core dumped)
+srun: error: k005: task 5: Bus error (core dumped)
+srun: error: k005: tasks 8,71: Bus error (core dumped)
+srun: error: k005: task 10: Bus error (core dumped)
+srun: error: k005: tasks 56,64,66: Bus error (core dumped)
+srun: error: k005: task 38: Bus error (core dumped)
+[k005:2783180:0:2783180] Caught signal 7 (Bus error: Sent by the kernel)
+==== backtrace (tid:2783180) ====
+ 0 0x000000000006141c ucs_callbackq_cleanup()  ???:0
+ 1 0x000000000006158a ucs_callbackq_cleanup()  ???:0
+ 2 0x000000000003ebf0 __GI___sigaction()  :0
+ 3 0x0000000000097ab7 _int_free()  ???:0
+ 4 0x000000000009a2c5 __free()  :0
+ 5 0x0000000000005026 conv2d_stride_2d_MPI_OMP()  ???:0
+ 6 0x000000000000286e main()  ???:0
+ 7 0x00000000000295d0 __libc_start_call_main()  ???:0
+ 8 0x0000000000029680 __libc_start_main_alias_2()  :0
+ 9 0x0000000000002bc5 _start()  ???:0
+=================================
+srun: error: k005: task 80: Bus error (core dumped)
+srun: error: k005: task 43: Bus error (core dumped)
+srun: error: k005: task 62: Bus error (core dumped)
+srun: error: k005: task 48: Bus error (core dumped)
+srun: error: k005: task 37: Bus error (core dumped)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 47157 ON k005 CANCELLED AT 2025-10-17T14:49:38 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 47157.3 ON k005 CANCELLED AT 2025-10-17T14:49:38 DUE TO TIME LIMIT ***

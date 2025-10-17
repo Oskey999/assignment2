@@ -1,0 +1,1157 @@
+cc                      -O3 -fopenmp -Wall     -o ass2 ass2.c -fopenmp             
+srun ./ass2 -p -r -H 30001 -W 30001 -kW 36 -kH 36 -sH 1 -sW 1
+srun ./ass2 -p -r -H 30501 -W 30501 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+Padding matrix from 30501x30501 to 30536x30536 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3557.00 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=30536 (input_start_row=0, input_end_row=30535)
+Convolution done
+Output Matrix size: 30501x30501
+srun ./ass2 -p -r -H 31001 -W 31001 -kW 36 -kH 36 -sH 1 -sW 1
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+Padding matrix from 31001x31001 to 31036x31036 (top=17, bottom=18, left=17, right=18)
+Padding complete using 3674.44 MB total.
+Starting convolution with stride 1,1
+[Rank 0] Starting conv2d_stride_2d_MPI_OMP with 1 processes...
+[Rank 0] local_input1d rows=31036 (input_start_row=0, input_end_row=31035)
+srun ./ass2 -p -r -H 31501 -W 31501 -kW 36 -kH 36 -sH 1 -sW 1

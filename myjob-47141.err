@@ -1,0 +1,5 @@
+ass2.c:16:10: fatal error: mpi.h: No such file or directory
+   16 | #include "mpi.h"
+      |          ^~~~~~~
+compilation terminated.
+make: *** [makefile:14: ass2] Error 1

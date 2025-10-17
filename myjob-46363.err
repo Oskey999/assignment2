@@ -4,5 +4,5 @@ ass2.c:15:10: fatal error: mpi.h: No such file or directory
 compilation terminated.
 make: *** [makefile:14: ass2] Error 1
 srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** STEP 46384.1 ON k008 CANCELLED AT 2025-10-16T16:08:37 DUE TO TIME LIMIT ***
-slurmstepd: error: *** JOB 46384 ON k008 CANCELLED AT 2025-10-16T16:08:37 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 46363.1 ON k005 CANCELLED AT 2025-10-16T22:38:37 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 46363 ON k005 CANCELLED AT 2025-10-16T22:38:37 DUE TO TIME LIMIT ***

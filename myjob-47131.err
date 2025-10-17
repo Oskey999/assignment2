@@ -1,0 +1,10 @@
+ass2.c:15:10: fatal error: mpi.h: No such file or directory
+   15 | #include "mpi.h"
+      |          ^~~~~~~
+compilation terminated.
+make: *** [makefile:14: ass2] Error 1
+slurmstepd: error: Detected 5 oom_kill events in StepId=47131.0. Some of the step tasks have been OOM Killed.
+srun: error: k005: tasks 35,65: Out Of Memory
+slurmstepd: error: *** STEP 47131.0 ON k005 CANCELLED AT 2025-10-17T13:45:38 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 47131 ON k005 CANCELLED AT 2025-10-17T13:45:38 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
